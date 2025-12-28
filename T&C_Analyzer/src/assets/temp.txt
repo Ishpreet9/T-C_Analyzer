@@ -1,0 +1,83 @@
+Download
+Nitro
+Discover
+Safety
+Quests
+Support
+Blog
+Developers
+Careers
+Log In
+Archived Versions
+DISCORD'S TERMS OF SERVICE
+Effective: September 29, 2025
+Last Updated: August 29, 2025
+1.
+Who we are
+2.
+Age requirements and responsibility of parents and legal guardians
+3.
+What you can expect from us
+4.
+Your Discord account
+5.
+Content in Discord’s services
+•
+Your content
+•
+Discord's content
+•
+Other content
+6.
+Software in Discord’s services
+7.
+Copyright
+8.
+Discord’s paid services
+9.
+Restrictions on your use of Discord’s services
+10.
+Term & Termination
+11.
+Appeals
+12.
+Indemnity
+13.
+Services “AS IS”
+14.
+Data Charges
+15.
+Limitation of liability
+16.
+Settling disputes between you and Discord
+17.
+More important stuff
+
+
+Welcome! Discord enables you to build meaningful connections around the joy of playing games through voice, video and text features. We’re happy you’re here.
+
+These terms set forth our legal obligations to each other. They apply to your use of our services.
+
+‍IMPORTANT NOTE: The section titled “Settling Disputes Between You and Discord” contains an arbitration clause and class-action waiver that applies to all U.S. or Canada-based Discord users. Please read this section carefully as it may significantly affect your legal rights, including your right to file a lawsuit in court.
+
+When we say “Discord,” “we,” “us,” and “our” in these terms, we mean Discord Inc., its subsidiaries, and its related companies.
+
+When we say “services” in these terms, we mean Discord’s services, apps, websites, and other products.
+
+When we say “you” or “your,” we mean you. If you’re accessing our services on behalf of a legal entity (like your employer), you agree that you have the authority to bind that entity to these terms, and “you” and “your” will refer to that entity.
+
+We also have a Privacy Policy, Community Guidelines, and other policies (as listed here or as otherwise made available to you) that apply to your use of our services and are incorporated into these terms. You should read these policies—we’ve worked hard to make them simple and clear, and they contain important information about your use of our services. If you use our APIs, SDKs, or other developer services or software, Discord’s Developer Terms of Service and Developer Policy apply to that use. Discord’s Paid Services Terms apply to any purchase you make through Discord, and Discord’s Monetization Terms apply to any sales you make through Discord. By using Discord’s services, you agree to these terms.
+
+Together, these rules make Discord possible, and they matter to us. If you believe others aren’t following them, please let us know by reporting it to us.
+
+WHO WE ARE
+
+We’re Discord! Discord Inc. is located at 444 De Haro Street #200, San Francisco, CA 94107, USA. Discord Netherlands B.V. is located at Schiphol Boulevard 195, 1118 BG Schiphol, Netherlands
+
+AGE REQUIREMENTS AND RESPONSIBILITY OF PARENTS AND LEGAL GUARDIANS
+
+By accessing our services, you confirm that you’re at least 13 years old and meet the minimum age required by the laws in your country. Our services are not designed for nor directed towards users under the age of 13. We may take additional steps, including the use of third-party services, to determine whether you are old enough to create a Discord account or access certain features or spaces. By creating a Discord account or using our services, you accept and agree to be bound by these terms and represent that you have either reached the age of "majority" where you live or your parent or legal guardian agrees to be bound by these terms on your behalf. If you do not know whether you have reached the age of majority where you live, or do not understand this section, please ask your parent or legal guardian for help and ask them to read these terms with you. We maintain a list of minimum ages around the world as a resource for you, but we aren’t able to guarantee that it is always accurate. If you’re a parent or legal guardian, and you allow your child (who must meet the minimum age for your country) to use the services, then you and the minor child accept and agree to be bound by these terms and are responsible for all use of the Discord account or services, including your child’s activity on the services and purchases made by them, whether the minor’s account is now open or created later.
+
+WHAT YOU CAN EXPECT FROM US
+
+Discord provides services that help you connect with other Discord users and communities. Discord users communicate primarily via “servers,” which are digital spaces made up of different types of channels. Text channels allow users to interact via text-based messages, as well as images, GIFs, emoji, and other uploadable media. Voice channels allow users to communicate by voice and/or streaming video. Users can also communicate one-to-one using direct messages, or communicate with a limited number of users via group direct messages. We’re always evolving our services, and we may create other types of spaces in the future!
