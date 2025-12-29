@@ -1,10 +1,13 @@
+import axios from "axios";
 import { useEffect, type Dispatch, type SetStateAction } from "react";
+import { type AnalysisResultType } from "../types/types";
 
 type childProps = {
   setState: Dispatch<SetStateAction<string>>;
+  setAnalysisData: Dispatch<SetStateAction<AnalysisResultType>>;
 };
 
-const Scanner = ({ setState }: childProps) => {
+const Scanner = ({ setState, setAnalysisData }: childProps) => {
   // get current active tab
   const runScan = async () => {
     const [tab] = await chrome.tabs.query({
@@ -104,20 +107,40 @@ const Scanner = ({ setState }: childProps) => {
                 element.remove();
             }
           });
-
-          // return virtualBody.innerText.replace(/\s+/g, " ").trim();
-          return virtualBody.innerText.trim();
+          
+          return virtualBody.innerText.replace(/\s+/g, " ").trim();
+          // return virtualBody.innerText.trim();
         },
       },
       (results: chrome.scripting.InjectionResult<string>[]) => {
         if (results && results[0]) {
           const extractedText = results[0].result;
-          // --- LOGGING HAPPENS HERE ---
-          console.log("--------------------------------");
-          console.log("WEBSITE CONTENT FETCHED:");
-          console.log(extractedText); // Check your Console!
-          console.log("--------------------------------");
-          setState("Data Fetched");
+          axios.post("http://localhost:3000/api/ai/analysis",{
+            tc_data: extractedText
+          })
+          .then((response) => {
+            const data = response.data.data;
+            // console.log(data);
+            console.log(typeof data); 
+
+  // 2. The correct way to check for an Array
+  console.log("Is it an array?", Array.isArray(data));
+
+  // 3. See the actual data and its structure
+  console.log("Actual Data:", data);
+
+            // parse to convert string to object
+            if(typeof data === 'string')
+            {
+              let parsedData = JSON.parse(data);
+              setAnalysisData(parsedData);
+            }
+            else
+            {
+              setAnalysisData(data);
+            }
+          })
+          setState("fetched");
         } else {
           console.log("Error fetching data");
         }

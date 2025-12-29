@@ -32,3 +32,13 @@ body {
     border-radius: 8px;
   }
 }
+
+.custom-scroll {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+}
