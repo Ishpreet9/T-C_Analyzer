@@ -47,7 +47,7 @@ ${tc_data}
                     {role: 'user', content: prompt}
                 ],
                 temperature: 0.2,
-                seed: 142,
+                // seed: 142,
                 max_tokens: 10000 
             },
             {

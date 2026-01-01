@@ -1,10 +1,14 @@
+import type { Dispatch, SetStateAction } from "react";
 import type { AnalysisResultType } from "../types/types";
 
 type ChildProps = {
   analysisData: AnalysisResultType | null; // Allow null for loading state
+  setAnalysisData: Dispatch<SetStateAction<AnalysisResultType | null>>;
+  setState: Dispatch<SetStateAction<string>>;
 };
 
-const ResultView = ({ analysisData }: ChildProps) => {
+const ResultView = ({ analysisData, setAnalysisData, setState }: ChildProps) => {
+
   // 1. Loading State (Simple Pulse Effect)
   if (!analysisData) {
     return (
@@ -25,12 +29,31 @@ const ResultView = ({ analysisData }: ChildProps) => {
     return "text-red-400 border-red-500/50";
   };
 
+  // rescan handling
+  const handleRescan = async () => {
+
+    const [tab] = await chrome.tabs.query({active: true, currentWindow: true});
+    if(tab?.url)
+    {
+      chrome.storage.local.remove([tab.url], ()=>{
+        setAnalysisData(null);
+        setState('scanning');
+        console.log("Cache cleared for current tab.");
+      })
+    }
+
+  }
+
   return (
     <div className="w-full max-w-3xl mx-auto bg-neutral-800 text-neutral-100 shadow-2xl border border-neutral-700">
       
       {/* Header Section */}
       <div className="p-6 border-b border-neutral-700 flex flex-col sm:flex-row justify-between items-center gap-4">
         <div>
+          <div className="flex items-center gap-3">
+          <span className="text-neutral-300">Results from local storage.</span>
+          <button className="underline hover:text-neutral-200 text-neutral-400" onClick={()=>handleRescan()}>Rescan ?</button>
+          </div>
           <h2 className="text-xl font-semibold text-neutral-300 uppercase tracking-wide text-center sm:text-left">
             Safety Score
           </h2>
