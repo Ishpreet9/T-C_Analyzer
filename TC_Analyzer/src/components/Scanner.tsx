@@ -119,8 +119,8 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
             }
           });
 
-          return virtualBody.innerText.replace(/\s+/g, " ").trim();
-          // return virtualBody.innerText.trim();
+          // return virtualBody.innerText.replace(/\s+/g, " ").trim();
+          return virtualBody.innerText.trim();
         },
       },
       (results: chrome.scripting.InjectionResult<string>[]) => {

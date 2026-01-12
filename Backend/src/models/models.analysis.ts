@@ -4,6 +4,7 @@ export interface AnalysisInterface extends Document {
   textHash: string;
   url: string;
   scanCount: number;
+  tc_data: Buffer;
   analysis?: { // The '?' means it is optional (can be undefined)
     score: number;
     fairness: string;
@@ -21,6 +22,8 @@ const AnalysisSchema = new Schema<AnalysisInterface>({
     url: { type: String, required: true },
 
     scanCount: { type: Number, default: 1 },
+
+    tc_data: { type: Buffer, required: true},
 
     analysis: {
         type: {
