@@ -104,24 +104,29 @@ const getAnalysis = async (req: Request, res: Response) => {
             return res.status(400).json({ message: "T&C Data or URL not available" });
         }
         // check if analysis exists in db
-        const analysisData = await AnalysisModel.findOne({ url: url });
-        // if analysis exist in db and hash matches, return cached analysis
-        if (analysisData && analysisData.analysis && analysisData.textHash === textHash) {
-            if (analysisData.scanCount > 5) {
-                console.log("Analysis found in DB for hash: " + textHash);
-                return res.status(200).json({ success: true, message: "Cached Analysis", data: analysisData.analysis });
-            }
-            else {
-                // increment scan count
-                analysisData.scanCount++;
-            }
+        let analysisData = await AnalysisModel.findOne({ textHash: textHash });
+        if (!analysisData) {
+            analysisData = await AnalysisModel.findOne({ url: url });
+        }
+        // increment scan count
+        if (analysisData) {
+            await AnalysisModel.findOneAndUpdate(
+                { $or: [{ textHash: textHash }, { url: url }] },
+                { $inc: { scanCount: 1 } },
+                { new: true, upsert: true }
+            );
+        }
+        // if analysis exist in db and hash matches and scanCount is more than 5, return cached analysis
+        if (analysisData && analysisData.textHash === textHash && analysisData.analysis && analysisData.scanCount > 5) {
+            console.log("Analysis found in DB for hash: " + textHash);
+            return res.status(200).json({ success: true, message: "Cached Analysis", data: analysisData.analysis });
         }
 
-        // if analysis exist, url match but hash doesn't match, check semantic similarity using myer's diff, if semantically different then update analysis
-        else if (analysisData && analysisData.url === url && analysisData.textHash !== textHash) {
+        // if analysis exist, url match but hash doesn't match and scan count is more than 5, check semantic similarity using myer's diff, if semantically different then update analysis
+        else if (analysisData && analysisData.url === url && analysisData.textHash !== textHash && analysisData.scanCount > 5) {
             // getting changed paragraphs using myers diff
-            const decmopressedTcData = decompress(analysisData.tc_data);
-            const paraDiff = getParagraphDiff(decmopressedTcData, tc_data);
+            const decompressedTcData = decompress(analysisData.tc_data);
+            const paraDiff = getParagraphDiff(decompressedTcData, tc_data);
             const paraChanges = paraDiff.changes;
 
             console.log("Existing analysis found, checking semantic similarity for hash: " + textHash);
@@ -155,27 +160,46 @@ const getAnalysis = async (req: Request, res: Response) => {
                 // increment scan count and update tc_data and textHash
                 const newTcData = compress(tc_data);
                 const newTextHash = generateHash(tc_data);
-                analysisData.tc_data = newTcData;
-                analysisData.textHash = newTextHash;
-                analysisData.scanCount++;
-                await analysisData.save();
+                // update textHash, scan count, tc_data and url without updating analysis
+                await AnalysisModel.findOneAndUpdate(
+                    { _id: analysisData._id },
+                    {
+                        $set: {
+                            url: url,
+                            textHash: newTextHash,
+                            tc_data: newTcData
+                        },
+                        // $inc: { scanCount: 1 }
+                    },
+                    { new: true }
+                );
+
                 return res.status(200).json({ success: true, message: "Cached Analysis", data: analysisData.analysis });
             } else {
                 console.log("Semantically different T&C. Updated new analysis.");
                 const newTextHash = generateHash(tc_data);
                 const newTcData = compress(tc_data);
-                analysisData.textHash = newTextHash; //new hash
-                analysisData.analysis = parsedResponse.updatedAnalysis;
-                analysisData.tc_data = newTcData;
-                analysisData.scanCount++;
-                await analysisData.save();
+                // update textHash, scan count, tc_data and url along with analysis
+                await AnalysisModel.findOneAndUpdate(
+                    { _id: analysisData._id },
+                    {
+                        $set: {
+                            url: url,
+                            textHash: newTextHash,
+                            tc_data: newTcData,
+                            analysis: parsedResponse.updatedAnalysis
+                        },
+                        // $inc: { scanCount: 1 }
+                    },
+                    { new: true }
+                );
                 return res.status(200).json({ success: true, message: "Updated Analysis", data: parsedResponse.updatedAnalysis });
             }
         }
 
         let tc_data_truncated = tc_data;
         if (tc_data.length > CHAR_LIMIT) {
-            console.log(`Text too large (${tc_data.leng} chars. Truncating to ${CHAR_LIMIT}`);
+            console.log(`Text too large (${tc_data.length} chars. Truncating to ${CHAR_LIMIT}`);
             tc_data_truncated = tc_data.substring(0, CHAR_LIMIT);
             tc_data_truncated += "\n\n[TEXT TRUNCATED DUE TO LENGTH LIMIT]";
         }
@@ -206,24 +230,72 @@ ${tc_data_truncated}
         ]
 
         const result = await generateAnalysis(messages);
+        const parsedResult = JSON.parse(result);
         const newTextHash = generateHash(tc_data);
         const compressedTcData = compress(tc_data);
-        // save analysis to db
-        AnalysisModel.findOneAndUpdate(
-            { url: url },
-            {
-                textHash: newTextHash,
-                url: url,
-                scanCount: 1,
-                tc_data: compressedTcData,
-                analysis: JSON.parse(result)
-            },
-            {
-                upsert: true,
-                new: true,
-                setDefaultsOnInsert: true
-            }
-        )
+
+        // if analysisData doesn't exist, create new entry with scanCount = 1 without analysis or data
+        if (!analysisData) {
+            console.log("No existing analysis found. Scan count set to 1 for new analysis.");
+            const savedDoc = await AnalysisModel.findOneAndUpdate(
+                { url: url },
+                {
+                    textHash: newTextHash,
+                    url: url,
+                    scanCount: 1,
+                },
+                {
+                    upsert: true,
+                    new: true,
+                    setDefaultsOnInsert: true
+                }
+            )
+            console.log("New analysis saved in savedDoc: ", savedDoc);
+        }
+        // if analysisData existed, update with scanCount + 1 without any other data
+        else if (analysisData.scanCount <= 5) {
+            // save analysis to db
+            const savedDoc = await AnalysisModel.findOneAndUpdate(
+                { url: url },
+                {
+                    $set: {
+
+                        textHash: newTextHash,
+                        url: url,
+                    }
+                },
+                {
+                    upsert: true,
+                    new: true,
+                    setDefaultsOnInsert: true
+                }
+            )
+            console.log("New analysis saved in savedDoc: ", savedDoc);
+        }
+        // if analysisData existed and scanCount > 5, update full analysis
+        else if (analysisData.scanCount > 5) {
+            // save analysis to db
+            const savedDoc = await AnalysisModel.findOneAndUpdate(
+                { url: url },
+                {
+                    $set: {
+
+                        textHash: newTextHash,
+                        url: url,
+                        tc_data: compressedTcData,
+                        analysis: parsedResult
+                    },
+                    // $inc: { scanCount: 1 }
+                },
+                {
+                    upsert: true,
+                    new: true,
+                    setDefaultsOnInsert: true
+                }
+            )
+        }
+
+
         return res.status(200).json({ success: true, message: "Generated Analysis", data: JSON.parse(result) });
 
     } catch (error: any) {
@@ -232,65 +304,5 @@ ${tc_data_truncated}
     }
 }
 
-// const checkSimilarity = async (req: Request, res: Response) => {
-
-//     try {
-
-//         // get old and new tc_data
-//         let { oldTcData, newTcData } = req.body;
-
-//         if (!oldTcData || !newTcData) {
-//             return res.status(400).json({ message: "Old or New T&C data missing" });
-//         }
-
-//         if (oldTcData.length > CHAR_LIMIT) {
-//             console.log(`Text too large (${oldTcData.length} chars. Truncating to ${CHAR_LIMIT}`);
-//             oldTcData = oldTcData.substring(0, CHAR_LIMIT);
-//             oldTcData += "\n\n[TEXT TRUNCATED DUE TO LENGTH LIMIT]";
-//         }
-
-//         if (newTcData.length > CHAR_LIMIT) {
-//             console.log(`Text too large (${newTcData.length} chars. Truncating to ${CHAR_LIMIT}`);
-//             newTcData = newTcData.substring(0, CHAR_LIMIT);
-//             newTcData += "\n\n[TEXT TRUNCATED DUE TO LENGTH LIMIT]";
-//         }
-
-//         // semantic comparison using low cost ai model
-//         const response = await axios.post(
-//             'https://api.groq.com/openai/v1/chat/completions',
-//             {
-//                 model: 'openai/gpt-oss-120b',
-
-//                 temperature: 0.1,
-//                 max_tokens: 10000
-//             },
-//             {
-//                 headers: {
-//                     'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-//                     'Content-Type': 'application/json'
-//                 }
-//             }
-//         )
-
-//         return res.status(200).json({ success: true, data: response.data.choices[0].message.content });
-
-//     } catch (error: any) {
-
-//         // 1. Log the FULL structure to Terminal
-//         console.error("🔥 FULL ERROR OBJECT:", JSON.stringify(error, null, 2));
-
-//         // 2. Check if it's a Groq/Axios API error
-//         if (error.response) {
-//             console.error("API Response Data:", error.response.data);
-//         }
-
-//         // 3. Send a safe response to the frontend
-//         return res.status(500).json({
-//             message: "Analysis failed",
-//             // Fallback: If .message is missing, turn the whole error into a string
-//             details: error.message || String(error)
-//         });
-//     }
-// }
 
 export { getAnalysis };
