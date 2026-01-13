@@ -132,27 +132,43 @@ const getAnalysis = async (req: Request, res: Response) => {
             console.log("Existing analysis found, checking semantic similarity for hash: " + textHash);
             const messages: messageType[] = [
                 {
-                    role: 'system', content: `You are a legal semantic diff tool.
-    Determine if the changes are "Sementically Significant" (do they alter user rights, risks, privacy, or costs, etc.)
-    Ignore changes in formatting, whitespaces, HTML structures or contact addresses.
-    Focus only on the legal meanings, obligations, terms, caluses, conditions and user rights.
-    RULES:
-  1. IGNORE vocabulary shifts (e.g., 'Company' vs 'Organization', 'Law' vs 'Statutes').
-  2. IGNORE formatting (e.g., 'Section 4' vs '4.').
-  3. FOCUS on the result: If a user sues, is the outcome the same in both versions?
-  4. SYMBOLIC EQUIVALENCE: Treat 'held harmless' as semantically equivalent to 'not liable' in the context of liability caps.
-  5. PRAGMATISM: If the financial cap ($100) and the core exclusions (profits, data, indirect damages) are present, they are IDENTICAL.
-  If they are not semantically identical, change the old analysis to reflect the new changes and follow the json structure from the old analysis.
-    Return JSON only: {"isSemanticallyIdentical": boolean} in case if they are semantically identical.
-    Return JSON only: {"isSemanticallyIdentical": false, "updatedAnalysis": <new analysis JSON object>} in case if they are NOT semantically identical.
-    
-    Don't return anything else other than the JSON object.
-    `},
+                    role: 'system',
+                    content: `You are a Legal Semantic Diff Tool.
+Your job is to update an existing analysis based on text changes.
+
+RULES:
+1. IGNORE vocabulary shifts (e.g., 'Company' vs 'Organization').
+2. IGNORE formatting (e.g., 'Section 4' vs '4.').
+3. FOCUS on the result: If a user sues, is the outcome the same?
+4. SYMBOLIC EQUIVALENCE: Treat 'held harmless' as 'not liable'.
+5. PRAGMATISM: If the financial cap and exclusions are unchanged, they are IDENTICAL.
+6. NO DATABASE FIELDS: Never include "_id", "__v", "createdAt", or "updatedAt" in your output.
+
+OUTPUT FORMAT (JSON ONLY):
+- If semantically identical: 
+  { "isSemanticallyIdentical": true }
+
+- If semantically DIFFERENT:
+  { 
+    "isSemanticallyIdentical": false, 
+    "updatedAnalysis": { 
+       "score": number, 
+       "fairness": string, 
+       "redFlags": string[], 
+       "yellowFlags": string[], 
+       "greenFlags": string[], 
+       "summary": string 
+    } 
+  }
+
+CRITICAL: Return strictly valid JSON. Do not return markdown, code blocks, or explanations.`
+                },
                 {
                     role: "user",
-                    content: `OLD ANALYSIS: ${analysisData.analysis} \n\n PARAGRAPH CHANGES: ${paraChanges}`
+                    // 👇 See Step 2 below for why we change this variable
+                    content: `OLD ANALYSIS: ${JSON.stringify(analysisData.analysis)} \n\n PARAGRAPH CHANGES: ${paraChanges}`
                 }
-            ]
+            ];
             const similarityResponse = await generateAnalysis(messages);
             const parsedResponse = JSON.parse(similarityResponse);
             if (parsedResponse.isSemanticallyIdentical) {
