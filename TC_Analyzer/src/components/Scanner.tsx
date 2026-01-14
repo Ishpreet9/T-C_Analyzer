@@ -7,10 +7,9 @@ type childProps = {
   setAnalysisData: Dispatch<SetStateAction<AnalysisResultType>>;
 };
 
-const saveToCache = async (data: AnalysisResultType) => {
-  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  if (tab?.url) {
-    const url = tab.url;
+const saveToCache = async (data: AnalysisResultType, url: string) => {
+  // const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (url) {
     const storageObject = { [url]: data };
     chrome.storage.local.set(storageObject, () => {
       console.log("Data cached for url: ", url);
@@ -25,6 +24,13 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
       active: true,
       currentWindow: true,
     });
+    if(!tab?.url || !tab?.id)
+    {
+      console.log("No valid tab or url found");
+      setState('error');
+      return;
+    }
+    const url: string = tab?.url;
     // checking tab availability
     if (!tab?.id) {
       console.log("No tab found");
@@ -127,7 +133,8 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
         if (results && results[0]) {
           const extractedText = results[0].result;
           axios.post("http://localhost:3000/api/ai/analysis", {
-            tc_data: extractedText
+            tc_data: extractedText,
+            url: url
           })
             .then((response) => {
               const data = response.data.data;
@@ -143,11 +150,11 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
               // parse to convert string to object
               if (typeof data === 'string') {
                 let parsedData = JSON.parse(data);
-                saveToCache(parsedData);
+                saveToCache(parsedData, url);
                 setAnalysisData(parsedData);
               }
               else {
-                saveToCache(data);
+                saveToCache(data, url);
                 setAnalysisData(data);
               }
               setState("fetched");
