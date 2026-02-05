@@ -1,12 +1,11 @@
 import { response, type Request, type Response } from "express";
 import axios from 'axios';
-import type { MeasureMemoryMode } from "node:vm";
-import { defaultMaxListeners } from "node:events";
 import { AnalysisModel } from "../models/models.analysis.js";
 import * as Diff from 'diff';
 import crypto from 'node:crypto';
 import zlib from 'node:zlib';
 const CHAR_LIMIT = 15000;
+const SCAN_COUNT_LIMIT = 5;
 
 type messageType = {
     role: 'user' | 'system' | 'assistant',
@@ -51,7 +50,6 @@ const getParagraphDiff = (oldText: string, newText: string) => {
     const totalParas = oldParas.length;
     const changePercent = totalParas > 0 ? (changedParas / totalParas) * 100 : 100; // If old was empty, it's 100% new
     return { changePercent, changes: changeLog.join('\n\n') };
-
 }
 
 const generateAnalysis = async (messages: messageType[]) => {
@@ -93,7 +91,7 @@ const generateAnalysis = async (messages: messageType[]) => {
 }
 
 const getAnalysis = async (req: Request, res: Response) => {
-    let { tc_data, url } = req.body;
+    let { tc_data, url, rescan } = req.body;
 
     try {
 
@@ -117,13 +115,13 @@ const getAnalysis = async (req: Request, res: Response) => {
             );
         }
         // if analysis exist in db and hash matches and scanCount is more than 5, return cached analysis
-        if (analysisData && analysisData.textHash === textHash && analysisData.analysis && analysisData.scanCount > 5) {
+        if (analysisData && analysisData.textHash === textHash && analysisData.analysis && analysisData.scanCount > SCAN_COUNT_LIMIT) {
             console.log("Analysis found in DB for hash: " + textHash);
             return res.status(200).json({ success: true, message: "Cached Analysis", data: analysisData.analysis });
         }
 
         // if analysis exist, url match but hash doesn't match and scan count is more than 5, check semantic similarity using myer's diff, if semantically different then update analysis
-        else if (analysisData && analysisData.url === url && analysisData.textHash !== textHash && analysisData.scanCount > 5) {
+        else if (analysisData && analysisData.url === url && analysisData.textHash !== textHash && analysisData.scanCount > SCAN_COUNT_LIMIT) {
             // getting changed paragraphs using myers diff
             const decompressedTcData = decompress(analysisData.tc_data);
             const paraDiff = getParagraphDiff(decompressedTcData, tc_data);
@@ -269,7 +267,7 @@ ${tc_data_truncated}
             console.log("New analysis saved in savedDoc: ", savedDoc);
         }
         // if analysisData existed, update with scanCount + 1 without any other data
-        else if (analysisData.scanCount <= 5) {
+        else if (analysisData.scanCount <= SCAN_COUNT_LIMIT) {
             // save analysis to db
             const savedDoc = await AnalysisModel.findOneAndUpdate(
                 { url: url },
@@ -289,7 +287,7 @@ ${tc_data_truncated}
             console.log("New analysis saved in savedDoc: ", savedDoc);
         }
         // if analysisData existed and scanCount > 5, update full analysis
-        else if (analysisData.scanCount > 5) {
+        else if (analysisData.scanCount > SCAN_COUNT_LIMIT) {
             // save analysis to db
             const savedDoc = await AnalysisModel.findOneAndUpdate(
                 { url: url },
@@ -320,5 +318,66 @@ ${tc_data_truncated}
     }
 }
 
+// rescan without any caching checks
+const rescan = async (req: Request, res: Response) => {
+    try {
+        const { tc_data, url } = req.body;
+        if (!url || !tc_data) {
+            return res.status(400).json({ message: "Url or tc_data not available" });
+        }
+        let tc_data_truncated = tc_data;
+        if (tc_data.length > CHAR_LIMIT) {
+            console.log(`Text too large (${tc_data.length} chars. Truncating to ${CHAR_LIMIT}`);
+            tc_data_truncated = tc_data.substring(0, CHAR_LIMIT);
+            tc_data_truncated += "\n\n[TEXT TRUNCATED DUE TO LENGTH LIMIT]";
+        }
+        const prompt = `
+You are an expert "Terms & Conditions Auditor". Your job is to protect the user.
+Analyze the provided legal text and return a strictly valid JSON object following this TypeScript interface:
 
-export { getAnalysis };
+interface Response {
+  score: number; // 0-100 (100 is perfect, 0 is predatory)
+  fairness: "Safe" | "Standard" | "Suspicious" | "Predatory";
+  redFlags: string[]; // List of dangerous clauses. Max 5 items.
+  yellowFlags: string[]; // List of potential concerns/cautions. Max 5 items.
+  greenFlags: string[]; // List of consumer-friendly clauses. Max 5 items.
+  summary: string; // Concise 2-sentence summary.
+}
+
+CRITICAL: Return ONLY raw JSON matching this structure. Do not use Markdown blocks.
+Note : If there is not data, then simply return a one word response: none
+RETURN JSON ONLY
+
+Here is the data for the terms and conditions : 
+${tc_data_truncated}
+`;
+        const response = await axios.post(
+            'https://api.groq.com/openai/v1/chat/completions',
+            {
+                model: 'openai/gpt-oss-120b',
+                messages: [
+                    { role: 'user', content: prompt }
+                ],
+                temperature: 0.2,
+                max_tokens: 10000
+            },
+            {
+                headers: {
+                    'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        )
+        console.log(JSON.stringify(response.data, null, 2));
+        let analysisData = response.data.choices[0].message.content;
+
+        return res.status(200).json({ success: true, message: "Rescanned Analysis", data: JSON.parse(analysisData)});
+
+    } catch (error: any) {
+        console.log("Error in rescan: ", error);
+        return res.status(500).json({ success: false, message: "Rescan failed", details: error });
+    }
+}
+
+
+export { getAnalysis, rescan };

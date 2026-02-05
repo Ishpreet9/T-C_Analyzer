@@ -7,20 +7,20 @@ type ChildProps = {
 const Home = ({ setState }: ChildProps) => {
   return (
     // Outer container matches the dark background of the app
-    <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-neutral-900">
+    <div className="w-full h-full backdrop-blur-[75px] bg-black/20 flex flex-col items-center justify-between">
       
       {/* Main Card - Matches ResultView style exactly */}
-      <div className="w-full max-w-lg bg-neutral-800 border border-neutral-700 rounded-xl shadow-2xl overflow-hidden">
+      <div className="flex flex-col w-full h-full max-w-lg border border-neutral-700 rounded-xl shadow-2xl overflow-hidden">
         
         {/* Header - Matches ResultView header style */}
-        <div className="p-6 border-b border-neutral-700 bg-neutral-800 flex justify-center">
+        <div className="py-6 border-b-1 border-neutral-200/30 bg-black/40 flex justify-center">
           <h1 className="text-xl font-semibold text-neutral-200 tracking-wide uppercase">
             T&C Analyzer
           </h1>
         </div>
 
         {/* Content Section */}
-        <div className="p-10 flex flex-col items-center text-center space-y-8">
+        <div className="p-10 flex flex-col items-center justify-between text-center space-y-8 flex-1">
           
           {/* Icon - Clean, no glow */}
           <div className="p-4 bg-neutral-700/50 rounded-full border border-neutral-600">
