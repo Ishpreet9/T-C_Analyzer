@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Scanner from "./components/Scanner";
 import ResultView from "./components/ResultView";
 import { type AnalysisResultType } from "./types/types";
+import Timeline from "./components/Timeline";
 
 type StorageWrapper = {
   [key: string]: AnalysisResultType | undefined;
@@ -50,7 +51,10 @@ const App = () => {
         <Home setState={setState} />
       ) : state === "scanning" && !analysisData ? (
         <Scanner setState={setState} setAnalysisData={setAnalysisData} />
-      ) :
+      ) : state === "timeline" ?
+      (
+        <Timeline />
+      ) : 
       (
         <ResultView analysisData={analysisData} setAnalysisData={setAnalysisData} setState={setState} />
       )
