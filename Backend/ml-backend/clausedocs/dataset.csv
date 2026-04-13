@@ -1,0 +1,1001 @@
+text,risk_category,risk_severity
+"Users should revisit the terms periodically, although in case of material changes, the service will notify",Policy change risk,low
+This service does not sell your personal data,Personal data usage,none
+This service assumes no liability for any losses or damages resulting from any matter relating to the service,Data security and Liability,low
+IP addresses of website visitors are not tracked,Personal data usage,none
+The service will resist legal requests for user information where reasonably possible,Rule usage enforcement,none
+"The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",Data security and Liability,low
+This service does not track you,Personal data usage,none
+The service is provided 'as is' and to be used at the users' sole risk,Data security and Liability,low
+"Users agree not to submit libelous, harassing or threatening content",Account responsibility,low
+Your personal data is used for limited purposes,Personal data usage,none
+You have the right to leave this service at any time,Account termination risk,none
+This service does not guarantee that it or the products obtained through it meet the users' expectations or requirements,Data security and Liability,low
+"User-generated content is encrypted, and this service cannot decrypt it",Data security and Liability,none
+The service does not use third-party analytics or tracking platforms,Third party dependency risk,none
+Your personal data is aggregated into statistics,Personal data usage,low
+The terms for this service are translated into different languages,Policy change risk,low
+This service provides an onion site accessible over Tor,Data security and Liability,none
+The service can delete your account without prior notice and without a reason,Account termination risk,medium
+The service does not share user information with third parties,Third party dependency risk,none
+This service uses third-party cookies for statistics,Third party dependency risk,medium
+"The service may keep a secure, anonymized record of users' data for analytical purposes even after the data retention period",Personal data usage,medium
+There is a date of the last update of the terms,Policy change risk,low
+Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision,Rule usage enforcement,low
+Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder,Legal remedy limitation,low
+You are responsible for maintaining the security of your account and for the activities on your account,Account responsibility,low
+The service does not guarantee accuracy or reliability of the information provided,Data security and Liability,low
+A free help desk is provided,Change of service risk,none
+"The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",Personal data usage,medium
+This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.,Personal data usage,low
+Blocking first party cookies may limit your ability to use the service,Access restriction,low
+You can opt out of targeted advertising,Personal data usage,none
+First-party cookies are used,Personal data usage,low
+Third parties are involved in operating the service,Third party dependency risk,low
+The service informs you that its privacy policy does not apply to third party websites,Third party dependency risk,low
+"The terms may be changed at any time, but you will receive notification of the changes",Policy change risk,low
+Information is provided about how your personal data is used,Personal data usage,none
+Private messages can be read,Personal data usage,high
+Third-party cookies are used for advertising,Third party dependency risk,medium
+Many different types of personal data are collected,Personal data usage,medium
+There is a date of the last update of the agreements,Policy change risk,low
+Third-party cookies are used for statistics,Third party dependency risk,medium
+You must report to the service any unauthorized use of your account or any breach of security,Account responsibility,low
+"Spidering, crawling, or accessing the site through any automated means is not allowed",Account responsibility,low
+Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction,Personal data usage,medium
+You authorise the service to charge a credit card supplied on re-occurring basis,Financial commitment risk,low
+"You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",Data security and Liability,low
+Your account can be deleted without prior notice and without a reason,Account termination risk,medium
+Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header.,Personal data usage,low
+"Terms may be changed any time at their discretion, without notice to you",Policy change risk,medium
+This service allows you to retrieve an archive of your data,Personal data usage,none
+"The service may change its terms at any time, but the user will receive notification of the changes.",Policy change risk,low
+This service requires first-party cookies,Personal data usage,low
+This service holds onto content that you've deleted,User content rights risk,high
+The service informs users that its privacy policy does not apply to third party websites,Third party dependency risk,low
+Third parties used by the service are bound by confidentiality obligations,Third party dependency risk,none
+You can limit how your information is used by third-parties and the service,Personal data usage,none
+This service may use your personal information for marketing purposes,Personal data usage,medium
+The service uses social media cookies/pixels,Personal data usage,medium
+The service provides information about how they intend to use your personal data,Personal data usage,none
+This service collects your IP address for location use,Personal data usage,low
+You can opt out of promotional communications,Personal data usage,none
+This service can share your personal information to third parties,Third party dependency risk,medium
+The service provides information about how they collect personal data,Personal data usage,none
+The service reviews its privacy policy on a regular basis,Policy change risk,none
+The service will only respond to government requests that are reasonable,Rule usage enforcement,none
+This service receives your location through GPS coordinates,Personal data usage,medium
+Your profile is combined across various products,Personal data usage,medium
+The service provides details about what kinds of personal information they collect,Personal data usage,none
+This service employs separate policies for different parts of the service,Policy change risk,low
+This service is only available to users over a certain age,Access restriction,low
+Users agree not to use the service for illegal purposes,Account responsibility,low
+"Instead of asking directly, this Service will assume your consent merely from your usage.",Rule usage enforcement,medium
+This service does not force users into binding arbitration,Legal remedy limitation,none
+Any liability on behalf of the service is limited to $10 000,Legal remedy limitation,medium
+You waive your right to a class action.,Legal remedy limitation,medium
+This service can use your content for all their existing and future services,Future scope expansion,low
+You maintain ownership of your content,User content rights risk,none
+You waive your moral rights,Irrevocable rights,high
+You must create an account to use this service,Account responsibility,low
+"Certain features maybe unavailable, depending on when you opened an account",Access restriction,low
+Your information is only shared with third parties when given specific consent,Third party dependency risk,none
+Your account can be closed for several reasons,Account termination risk,low
+"You will be notified about discontinuation of service(s), unless not possible",Change of service risk,none
+Two months of notice are given before closing your account,Account termination risk,none
+Your data may be processed and stored anywhere in the world,Jurisdiction risk,medium
+You must provide your identifiable information,Account responsibility,medium
+"When the service wants to make a material change to its terms, you are notified at least 30 days in advance",Policy change risk,none
+Blocking cookies may limit your ability to use the service,Access restriction,low
+Third parties may be involved in operating the service,Third party dependency risk,low
+Your biometric data is collected,Personal data usage,medium
+The service uses your personal data to employ targeted third-party advertising,Personal data usage,medium
+You can request access and deletion of personal data,Personal data usage,none
+This service gathers information about you through third parties,Third party dependency risk,medium
+The service collects many different types of personal data,Personal data usage,medium
+This service may keep personal data after a request for erasure for business interests or legal obligations,Personal data usage,medium
+This service still tracks you even if you opted out from tracking,Personal data usage,high
+The terms for this service are easy to read and include plain language summaries,Policy change risk,none
+This service is only available to users of a certain age,Access restriction,low
+Users agree to comply with the law of the service's country,Jurisdiction risk,low
+They may stop providing the service at any time,Change of service risk,low
+The service warns you of the potential consequences related to third-party access,Third party dependency risk,none
+This service forces users into binding arbitration in the case of disputes,Legal remedy limitation,medium
+You cannot distribute or disclose your account to third parties,Account responsibility,low
+"You agree not to submit libelous, harassing or threatening content",Account responsibility,low
+Sensitive data is collected and shared to target advertising,Personal data usage,high
+Your personal data is not sold,Personal data usage,none
+This service informs you that its Terms of Service does not apply to third party websites,Third party dependency risk,low
+You are forced into binding arbitration in case of disputes,Legal remedy limitation,medium
+This service gives your personal data to third parties involved in its operation,Third party dependency risk,medium
+"You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",Personal data usage,medium
+This service reserves the right to disclose your personal information without notifying you,Personal data usage,medium
+Information is provided about how they collect personal data,Personal data usage,none
+"Terms may be changed any time at their discretion, without notice to you",Policy change risk,medium
+Information is gathered about you through third parties,Third party dependency risk,medium
+This service tracks you on other websites,Personal data usage,medium
+"The service may keep a secure, anonymized record of your data for analytical purposes even after the data retention period",Personal data usage,medium
+Some personal data may be kept for business interests or legal obligations,Personal data usage,medium
+"Your IP address is collected, which can be used to view your approximate location",Personal data usage,low
+Your personal information is used for many different purposes,Personal data usage,medium
+"You should revisit the terms periodically, although in case of material changes, the service will notify",Policy change risk,low
+Your content can be licensed to third parties,Third party dependency risk,medium
+Your use is throttled,Access restriction,medium
+"If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",User content rights risk,none
+"If you are the target of a copyright claim, your content may be removed",User content rights risk,low
+The service is provided 'as is' and to be used at your sole risk,Data security and Liability,low
+This service does not guarantee that it or the products obtained through it meet your expectations or requirements,Data security and Liability,low
+Your content can be distributed through any media,User content rights risk,low
+The service has non-exclusive use of your content,User content rights risk,none
+This service receives your precise location through GPS coordinates,Personal data usage,medium
+Instructions are provided on how to submit a copyright claim,User content rights risk,low
+This service does not condone any ideas contained in its user-generated contents,Data security and Liability,low
+Details are provided about what kind of information they collect,Personal data usage,none
+This service shares your personal data with third parties that are not essential to its operation,Third party dependency risk,medium
+You are informed about the risk of publishing personal info online,Data security and Liability,none
+"The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection (California, USA)",Jurisdiction risk,none
+"You must provide your legal name, pseudonyms are not allowed",Account responsibility,medium
+Airbnb will continue using anonymized user-generated content even after account deletion,User content rights risk,low
+You cannot delete your account of this service,Account termination risk,high
+The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.,Personal data usage,medium
+Tracking pixels are used in service-to-user communication,Personal data usage,medium
+Users who have been permanently banned from this service are not allowed to re-register under a new account,Account termination risk,low
+You are entitled to a refund if certain thresholds or standards are not met by the service,Financial commitment risk,none
+You agree not to use the service for illegal purposes,Account responsibility,low
+30 days of notice are given before closing your account,Account termination risk,none
+Your personal data may be disclosed to comply with government requests without notice to you,Rule usage enforcement,medium
+No need to register,Account responsibility,none
+Your private content may be accessed by people working for the service,Personal data usage,low
+"This service collects your IP address, which can be used to view your approximate location",Personal data usage,low
+Users shall not interfere with another person's enjoyment of the service,Account responsibility,medium
+The user is informed about security practices,Data security and Liability,none
+This service has a no refund policy with some exceptions,Financial commitment risk,low
+"This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages.",Account responsibility,low
+Prohibits the posting of pornographic content,Account responsibility,low
+This service assumes no liability for unauthorized access to your personal information,Data security and Liability,medium
+Features of the website are made available under a free software license,User content rights risk,none
+Any liability on behalf of the service is only limited to the fees you paid as a user,Legal remedy limitation,medium
+Provides instructions on how to submit a copyright claim,User content rights risk,low
+Many third parties are involved in operating the service,Third party dependency risk,medium
+The service may use web beacons and device fingerprinting on users.,Personal data usage,medium
+You are solely responsible for claims made against the service and agree to indemnify the service.,Data security and Liability,low
+The court of law governing the terms is in New Zealand,Jurisdiction risk,low
+User accounts can be terminated after having been in breach of the terms of service repeatedly,Account termination risk,none
+Copyright license limited for the purposes of that same service,User content rights risk,none
+"When the service wants to change its terms, users are notified a week or more in advance.",Policy change risk,none
+The service can suspend your account for several reasons,Account termination risk,low
+"You can request access, correction and/or deletion of your data",Personal data usage,none
+This service prohibits users from attempting to gain unauthorized access to other computer systems,Account responsibility,low
+"If you are the target of a copyright holder's take down notice, this service gives you the opportunity to defend yourself",User content rights risk,none
+Tracking via third-party cookies for advertising,Third party dependency risk,medium
+You can retrieve an archive of your data,Personal data usage,none
+You are being tracked via social media cookies/pixels,Personal data usage,medium
+This service tracks which web page referred you to it,Personal data usage,medium
+"You can request access, correction and deletion of your data",Personal data usage,none
+The data retention period is kept to the minimum necessary for fulfilling its purposes,Personal data usage,none
+Your personal data may be used for marketing purposes,Personal data usage,medium
+Your personal data is used to employ targeted third-party advertising,Personal data usage,medium
+Your personal data is used for advertising,Personal data usage,medium
+"Prices and fees may be changed at any time, without notice to you",Financial commitment risk,medium
+Personal information that is shared outside its jurisdiction is processed according to the original jurisdiction’s data protection standards,Jurisdiction risk,none
+The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection (Belgium),Jurisdiction risk,none
+"This service may collect, use, and share location data",Personal data usage,medium
+You are not allowed to use a nick name,Account responsibility,low
+The copyright license on user data is broader than necessary,User content rights risk,medium
+Couchsurfing may share aggregated or anonymized information that does not directly identify you.,Personal data usage,low
+This service is only available to users over 18.,Access restriction,low
+Prohibits political discussions or campaigning,Account responsibility,low
+This service does not allow alternative accounts,Account responsibility,low
+Prohibits public posting of private messages,Account responsibility,none
+The service can read your private messages,Personal data usage,high
+Couchsurfing informs you about the fact that you can disable cookies,Personal data usage,medium
+The service can delete specific content without prior notice and without a reason,User content rights risk,high
+You cannot blame CouchSurfing for disputes you have with other users,Data security and Liability,low
+Couchsurfing becomes the owner of ideas you give them,User content rights risk,medium
+Couchsurfing may retain your data after deactivation for legitimate business purposes,Personal data usage,medium
+"This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages",Account responsibility,low
+You should follow the community guidelines,Account responsibility,low
+Couchsurfing may close your account at their sole discretion,Account termination risk,medium
+Prohibits the posting of content which promotes or glorifies violence or politically or religiously extremist values.,Account responsibility,low
+"Couchsurfing keeps the license on your content, even after you close your account",Irrevocable rights,medium
+This service can license user content to third parties,Third party dependency risk,medium
+"When the service wants to make a material change to its terms, users are notified at least 30 days in advance",Policy change risk,none
+The service may collect extra data about you through promotions,Personal data usage,medium
+The court of law governing the terms is State of California (U.S.),Jurisdiction risk,low
+This service keeps a license on user-generated content even after users close their accounts.,Irrevocable rights,medium
+Tracking via third-party cookies for purposes including advertising,Third party dependency risk,medium
+The service may sell your data unless you opt out,Personal data usage,medium
+You can get your data back,Personal data usage,none
+Right to leave the service,Account termination risk,none
+You maintain ownership of your data,User content rights risk,none
+"You are responsible for any risks, damages, or losses that may incur by downloading materials",Data security and Liability,low
+You are free to choose your copyright license,User content rights risk,none
+Users agree not to submit illegal content,Account responsibility,low
+You are solely responsible for claims made against the service and agree to indemnify and hold harmless the service.,Data security and Liability,low
+The service can distribute your content through any media known now or in the future,Future scope expansion,low
+The service claims to be CCPA compliant for California users,Jurisdiction risk,none
+The service uses your personal data for advertising,Personal data usage,medium
+The service will not allow third parties to access your personal information without a legal basis,Third party dependency risk,none
+The service claims to be GDPR compliant for European users,Jurisdiction risk,none
+Pseudonyms are allowed,Account responsibility,none
+Usernames can be rejected or changed for any reason,Account responsibility,medium
+Minors must have the authorization of their legal guardians to use the service,Access restriction,low
+This service uses your personal information for many different purposes,Personal data usage,medium
+This service is only available for use individually and non-commercially.,Access restriction,low
+This service cannot be held responsible for disputes that you may have with other users,Data security and Liability,low
+Users have a reduced time period to take legal action against the service,Legal remedy limitation,medium
+Your personal data is given to third parties,Third party dependency risk,medium
+The service is not responsible for linked or (clearly) quoted content from third-party content providers,Data security and Liability,low
+You are allowed to quote their content with attribution,User content rights risk,low
+The terms for this service are easy to read,Policy change risk,none
+No logs are being kept,Personal data usage,none
+Content is published under a free license instead of a bilateral one,User content rights risk,none
+Usernames can be rejected for any reason,Account responsibility,medium
+Instagram shares information with many third parties,Third party dependency risk,medium
+Your identity is used in ads that are shown to other users,Personal data usage,high
+Very broad copyright license on your content,User content rights risk,medium
+Instagram Court of law is California,Jurisdiction risk,low
+You waive your right to a class action,Legal remedy limitation,medium
+Tracking via third-party cookies for other purposes without your consent.,Third party dependency risk,medium
+This service can delete your content if you violate the terms,Rule usage enforcement,low
+The service provides a free help desk,Change of service risk,none
+The service refers users to external documents for more information,Policy change risk,low
+You can choose with whom you share content,Personal data usage,none
+This service keeps user logs for an undefined period of time,Personal data usage,medium
+They store data on you even if you did not interact with the service,Personal data usage,high
+This service is a subsidiary of Facebook,Third party dependency risk,low
+"Terms may be changed at their discretion, but they will notify you before.",Policy change risk,none
+The service informs users about the risk of publishing personal info online,Data security and Liability,none
+"Users are not allowed to use pseudonyms, as trust and transparency between users regarding their identities is relevant to the service.",Account responsibility,low
+"defend, indemnify, hold harmless; survives termination",Data security and Liability,low
+Facebook collects a lot of device information through the Instagram App.,Personal data usage,medium
+"Other applicable rules, terms, conditions or guidelines",Rule usage enforcement,low
+"Conditions may change, but your continued acceptance is not inferred from an earlier acceptance",Policy change risk,low
+The service can delete your account without a reason,Account termination risk,medium
+The service notice you before closing your account,Account termination risk,none
+"Apple.com can suspend the Site whenever they want, for any reason",Change of service risk,low
+The service gives 30 days of notice before closing your account,Account termination risk,none
+Any liability on behalf of the service is only limited to $ 50.00,Legal remedy limitation,medium
+Content you post may be edited by the service for any reason,User content rights risk,high
+The service is only available in some countries approved by its government,Access restriction,medium
+This service assumes no responsibility and liability for the contents of links to other websites,Data security and Liability,low
+"The court of law governing the terms is in Santa Clara County, California",Jurisdiction risk,low
+"When the service wants to change its terms, users are notified a month or more in advance",Policy change risk,none
+The service can delete specific content without reason and may do it without prior notice,User content rights risk,high
+A complaint mechanism is provided for the handling of personal data,Personal data usage,none
+"If you offer suggestions to the service, they become the owner of the ideas that you give them",User content rights risk,medium
+Information is provided about security practices,Data security and Liability,none
+Only temporary session cookies are used,Personal data usage,none
+You are not being tracked,Personal data usage,none
+Third parties are not allowed to access your personal information without a legal basis,Third party dependency risk,none
+This service is only available to users over 13 years of age,Access restriction,low
+"The court of law governing the terms is in a jurisdiction (Nevada, USA) that is less friendly to user privacy protection",Jurisdiction risk,medium
+Content removal from the service will be fair and proportionate.,User content rights risk,none
+Prohibits the publishing of personally identifiable information without the owner’s consent,Account responsibility,none
+Any liability on behalf of the service is only limited to the fees you paid as a user or $200,Legal remedy limitation,medium
+"This service offers a symbolic but nonbinding statement about a matter of opinion, ethics, society, or politics",Policy change risk,none
+"Users can scrape the site, as long as it doesn't impact the server too much",Account responsibility,none
+Copyright license limited for the purposes of that same service but transferable and sublicenseable,User content rights risk,none
+The service allows you to use pseudonyms,Account responsibility,none
+"You cannot delete your contributions, but it makes sense for this service",User content rights risk,low
+No third-party analytics or tracking platforms are used,Third party dependency risk,none
+This service provides information on their security practices regarding passwords,Data security and Liability,none
+"Using the service, you acknowledge that reading ToS;DR is in no way a replacement for reading the full terms to which you are bound",Account responsibility,low
+"Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage.",Policy change risk,medium
+You sign away moral rights,Irrevocable rights,high
+Вы соглашаетесь на передачу персональных данных третьим лицам,Third party dependency risk,medium
+Вы разрешаете использовать ваши данные для рассылки вам рекламы оператором и третьими лицами,Personal data usage,medium
+"Many third parties are involved in operating the service (Google, Stripe, Cloudflare, Zendesk)",Third party dependency risk,medium
+Your data is processed and stored in a country that is friendlier to user privacy protection,Jurisdiction risk,none
+Extra data may be collected about you through promotions,Personal data usage,medium
+This Service provides a list of Third Parties involved in its operation.,Third party dependency risk,none
+The service does not guarantee that software errors will be corrected,Data security and Liability,medium
+"You are tracked via web beacons, tracking pixels and device fingerprinting",Personal data usage,medium
+This service shares your personal data with third parties that are not involved in its operation,Third party dependency risk,medium
+A license is kept on user-generated content even after you close your account,Irrevocable rights,medium
+User content can be licensed to third parties,Third party dependency risk,medium
+Your content can be distributed through any media known now or in the future,Future scope expansion,low
+Your Personal data may be sold unless you opt out if you're a California Resident,Personal data usage,medium
+The service is transparent regarding government requests or inquiries that may involve user data.,Rule usage enforcement,low
+The court of law governing the terms is in location X,Jurisdiction risk,low
+"You are tracked via web beacons, tracking pixels, browser fingerprinting and device fingerprinting",Personal data usage,medium
+"In some countries, your identity is used in ads that are shown to other users",Personal data usage,high
+Your provided identifiable information is actively checked by the service,Account responsibility,medium
+Your data is processed and stored in a country that is less friendly to user privacy protection,Jurisdiction risk,medium
+"You should revisit the privacy policy periodically, although in case of material changes, the service will notify",Policy change risk,low
+"In some countries, this service may collect, use, and share location data",Personal data usage,medium
+"In some countries, your profile is combined across various products",Personal data usage,medium
+This service tracks you on other websites and apps,Personal data usage,medium
+"In some countries, sensitive data is collected and shared to target advertising",Personal data usage,high
+The cookies used by this service do not contain information that would personally identify you,Personal data usage,none
+You agree to comply with the law of the service's country,Jurisdiction risk,low
+The court of law governing the terms is in England,Jurisdiction risk,low
+This service takes credit for your content,User content rights risk,medium
+"We may gather other information when you visit our Site or other services, or when you view our online ads",Personal data usage,medium
+You can delete your content from this service,User content rights risk,none
+The service claims to be LGPD compliant for Brazilian users,Jurisdiction risk,none
+Your content can be deleted if you violate the terms,Rule usage enforcement,low
+This service is only available to users over 18,Access restriction,low
+Tracking cookies refused will not limit your ability to use the service,Access restriction,none
+This service is only available to users over 13 of age,Access restriction,low
+This service employs a broad copyright license over user content including the right to distribute through any media,User content rights risk,low
+Spidering or crawling is not allowed,Account responsibility,low
+The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection.,Jurisdiction risk,none
+The service's data retention period is kept to the minimum necessary for fulfilling its purposes,Personal data usage,none
+User suspension from the service will be fair and proportionate.,Account termination risk,none
+The service provides a complaint mechanism for the handling of personal data,Personal data usage,none
+User logs are deleted after a finite period of time,Personal data usage,none
+The service provides a complete list of all cookies set by its website,Personal data usage,none
+The court of law governing the terms is in Longgang District in Shenzhen City in the People's Republic of China,Jurisdiction risk,low
+The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection.,Jurisdiction risk,medium
+Critical changes to the terms are made without user involvement,Policy change risk,low
+This service respects your browser's Do Not Track (DNT) headers,Personal data usage,none
+This service can view your browser history,Personal data usage,high
+You can request deletion of your data,Personal data usage,none
+This service may share your personal data with third parties that are not involved in its operation,Third party dependency risk,medium
+Promises will be kept after a merger or acquisition,Change of service risk,none
+The posting of pornographic content is prohibited,Account responsibility,low
+"You are prohibited from sending chain letters, junk mail, spam or any unsolicited messages",Account responsibility,low
+This service only uses temporary session cookies,Personal data usage,none
+You have a reduced time period to take legal action against the service,Legal remedy limitation,medium
+Logs are kept for an undefined period of time,Personal data usage,medium
+only for your individual use,Access restriction,low
+Specific content can be deleted without reason and may be removed without prior notice,User content rights risk,high
+You are prohibited from attempting to gain unauthorized access to other computer systems,Account responsibility,low
+The service suspends your account after inactivity for a certain or uncertain time,Account termination risk,low
+"Defend, indemnify, hold harmless; survives termination",Data security and Liability,low
+"You aren’t forced into binding arbitration in case of disputes, but only if you opt out",Legal remedy limitation,none
+"Third party cookies are employed, but with opt out instructions",Third party dependency risk,medium
+This service only shares user information with third parties when given specific consent,Third party dependency risk,none
+The service provides two factor authentification for your account,Data security and Liability,none
+The service is open-source,Change of service risk,none
+Logs are deleted after a finite period of time,Personal data usage,none
+Harming minors in any ways is prohibited,Account responsibility,low
+You are prohibited from posting content which promotes violence or politically or religiously extremist values.,Account responsibility,low
+Your account can be suspended for several reasons,Account termination risk,low
+"Per the service's terms, you may not express negative opinions about them",Account responsibility,medium
+"The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection (Texas, USA)",Jurisdiction risk,medium
+You aren’t forced into binding arbitration in case of disputes,Legal remedy limitation,none
+The service promises to inform and/or notify you regarding government inquiries that may involve your personal data,Rule usage enforcement,none
+Only aggregate data is given to third parties,Third party dependency risk,low
+This service is only available to users over an age of 13,Access restriction,low
+You must be 18 years of age or older to use Talking Friends online store to purchase products (such as toys),Access restriction,low
+The court of law governing the terms is in Cyprus,Jurisdiction risk,low
+"When the service wants to change its terms, you are notified a week or more in advance.",Policy change risk,none
+You agree to indemnify and hold the service harmless in case of a claim related to your use of the service,Data security and Liability,low
+Your personal data is not shared with third parties,Third party dependency risk,none
+You cannot opt out of promotional communications,Personal data usage,medium
+The court of law governing the terms is in Massachusetts,Jurisdiction risk,low
+You can opt out of providing personal information to third parties,Third party dependency risk,none
+This service is a subsidiary of Microsoft,Third party dependency risk,low
+"This service employs third-party cookies, but with opt-out instructions",Third party dependency risk,medium
+The service can intervene in user disputes,Rule usage enforcement,low
+The service has a no refund policy,Financial commitment risk,low
+This service provides archives of their terms of service so that changes can be viewed over time,Policy change risk,none
+The service can create derivative works from Your Content and distribute it on any media and/or distribute Your Content on any media,User content rights risk,low
+"This service has a no refund policy, except as required by applicable law.",Financial commitment risk,low
+A list of all cookies set by the website is provided,Personal data usage,none
+Two factor authentication is provided for your account,Data security and Liability,none
+Information is provided about what kind of information they collect,Personal data usage,none
+This service is only available to users over 16 years old,Access restriction,low
+The service will resist legal requests for your information where reasonably possible,Rule usage enforcement,none
+Archives of their agreements are provided so that changes can be viewed over time,Policy change risk,none
+Any liability on behalf of the service is only limited to the fees you paid as a user or $100,Legal remedy limitation,medium
+This service is only available to users over a 13 years of age,Access restriction,low
+This service throttles your use,Access restriction,medium
+"Per the service's terms, users may not express negative opinions about them",Account responsibility,medium
+App required for this service requires broad device permissions,Personal data usage,medium
+The services will notify users if personal data has been affected by data breaches,Data security and Liability,none
+The service makes critical changes to its terms without user involvement,Policy change risk,low
+Users are free to choose the type of copyright license that they want to use over their content,User content rights risk,none
+"The court of law governing the terms is in King County, WA, USA.",Jurisdiction risk,low
+The court of law governing the terms is in France,Jurisdiction risk,low
+"When the service wants to change its terms, users are notified 30 days in advance",Policy change risk,none
+This service may force users into binding arbitration in the case of disputes,Legal remedy limitation,medium
+"[PrivateBin and Nextcloud] User-generated content is encrypted, and this service cannot decrypt it",Data security and Liability,none
+Service can block or censor user communications,User content rights risk,medium
+Some personal data may be kept after the end of the data retention period or a request for erasure,Personal data usage,medium
+"The court of law governing the terms is in Madrid, Spain",Jurisdiction risk,low
+No guarantee is given regarding quality,Data security and Liability,low
+This service provides a way for you to export your data,Personal data usage,none
+The service does not index or open files that you upload,Personal data usage,none
+Prohibits political discussions which are against the government-advocated value,Account responsibility,high
+This service reserves the right to edit any content you post,User content rights risk,high
+Inconvenient process for obtaining personal data,Personal data usage,medium
+"Users are responsible for any risks, damages, or losses they may incur by downloading materials",Data security and Liability,low
+This service informs users that its Terms of Service does not apply to third party websites,Third party dependency risk,low
+This service provides archives of their Terms of Service so that changes can be viewed over time,Policy change risk,none
+The court of law governing the terms is in People's Republic of China,Jurisdiction risk,low
+Any liability on behalf of the service is only limited to $10,Legal remedy limitation,medium
+The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection (Australia),Jurisdiction risk,medium
+Only necessary user logs are kept by the service to ensure quality,Personal data usage,none
+"The court of law governing the terms is in location Victoria, Australia",Jurisdiction risk,low
+"[TOS] The terms may be changed at any time, but you will receive notification of the changes",Policy change risk,low
+"[Customer Agreement] The terms may be changed at any time, but you will receive notification of the changes",Policy change risk,low
+Personal data is not shared with third parties,Third party dependency risk,none
+This Service does not keep any VPN logs.,Personal data usage,none
+An anonymous payment method is offered,Financial commitment risk,none
+The court of law governing the terms is in Texas,Jurisdiction risk,low
+The service allows you to opt out of providing personal information to third parties,Third party dependency risk,none
+Users cannot scrape the website of the service,Account responsibility,low
+The service promises to inform and/or notify users regarding government inquiries that may involve users' personal data,Rule usage enforcement,none
+This service is only available to users over 13 years old,Access restriction,low
+This service is only available to users of 16 years and older,Access restriction,low
+This service will warn users about website maintenance,Change of service risk,none
+The court of law governing the terms is in location New Zealand,Jurisdiction risk,low
+The court of law governing the terms is in the Province of Alberta,Jurisdiction risk,low
+User feedback is invited regarding changes to the terms.,Policy change risk,none
+You can choose the copyright license,User content rights risk,none
+This service is only available to users over 16 years of age,Access restriction,low
+You can access most of the pages on the service's website without revealing any personal information,Personal data usage,none
+You shall not interfere with another person's enjoyment of the service,Account responsibility,medium
+User-generated content can be blocked or censored for any reason,User content rights risk,medium
+The court of law governing the terms is in New York state,Jurisdiction risk,low
+[Privacy Policy] There is a date of the last update of the agreements,Policy change risk,low
+The court of law governing the terms is in Spain,Jurisdiction risk,low
+Some personal data may be kept after the end of the data retention period or a request for erasure for business purposes,Personal data usage,medium
+Your Personal data may be sold unless you opt out,Personal data usage,medium
+The court of law governing the terms is in Finland if you are a resident outside the United States,Jurisdiction risk,low
+pseudonym not allowed (user-to-user trust is relevant for service),Account responsibility,low
+"This service does not collect, use, or share location data",Personal data usage,none
+The court of law governing the terms is in England and Wales,Jurisdiction risk,low
+The publishing of personally identifiable information without the owner’s consent is not allowed,Account responsibility,none
+You agree to comply with the law of the United States,Jurisdiction risk,low
+The email support@wikidot.com can be used to receive support with understanding ToS and/or if what you are about to do is allowed,Change of service risk,none
+The court of law governing the terms is in Poland,Jurisdiction risk,low
+You can choose with whom you share your email adress,Personal data usage,none
+"You cannot delete some of your contributions, but it makes sense for this service",User content rights risk,low
+The court of law governing the terms is in Romania,Jurisdiction risk,low
+This service offers an anonymous payment method,Financial commitment risk,none
+There is a date of the last update of the agreements by Mrinal Saha,Policy change risk,low
+The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection (Hong Kong).,Jurisdiction risk,medium
+The service claims to be LPD compliant for Swiss users,Jurisdiction risk,none
+Voice data is collected and shared with third-parties,Personal data usage,medium
+The court of law governing the terms is in Bulgaria (BG),Jurisdiction risk,low
+This service is only available to users over 18 years old,Access restriction,low
+You must provide your identifiable and medical information,Personal data usage,medium
+You must comply with laws that affect copyright and trademarks that apply to your location,Account responsibility,low
+This service will give information to authorities if an investigation arises,Rule usage enforcement,none
+The website are made available under a free software license,User content rights risk,none
+Political discussions or campaining are prohibited,Account responsibility,low
+Blocking first party cookies limits your ability to use some of the service,Access restriction,low
+You can opt out of targeted advertising if you are in the European Economic Area (EEA),Personal data usage,none
+"Spidering, crawling, or accessing the site through any automated means is not allowed except with permission",Account responsibility,low
+"The court of law governing the terms is in the State of Utah, USA",Jurisdiction risk,low
+"The court of law governing the terms is in Georgia, USA.",Jurisdiction risk,low
+The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection (Switzerland).,Jurisdiction risk,none
+Google Analytics is used for statistics,Third party dependency risk,medium
+"Date of the last update of the agreements : April 21, 2017",Policy change risk,low
+Google Analytics is used for statistics on their website,Third party dependency risk,medium
+SmartThings uses your personal data for advertising,Personal data usage,medium
+SmartThings collects many different types of personal data,Personal data usage,medium
+SmartThings is only available for use individually and non-commercially.,Access restriction,low
+"SmartThings, trought Samsung, claims to be CCPA compliant for California users",Jurisdiction risk,none
+SmartThings tracks you on other websites,Personal data usage,medium
+You must create an account to use SmartThings,Account responsibility,low
+SmartThings ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.,Personal data usage,low
+Products and Services are provided 'as is' and to be used at the users' sole risk,Data security and Liability,low
+SmartThings can license user content to third parties,Third party dependency risk,medium
+Your SmartThings profile is combined across various products and services,Personal data usage,medium
+"SmartThings may change its terms at any time, but the user will receive notification of the changes.",Policy change risk,low
+SmartThings provides a free help desk,Change of service risk,none
+SmartThings keeps a license on user-generated content even after users close their accounts.,Irrevocable rights,medium
+SmartThings can distribute your content through any media known now or in the future,Future scope expansion,low
+Your account can be deleted or permanently suspended without prior notice and without a reason,Account termination risk,medium
+The court of law governing the terms is in Japan,Jurisdiction risk,low
+Alternative accounts are not allowed,Account responsibility,low
+The court of law governing the terms is in Sweden,Jurisdiction risk,low
+"Logs are deleted after 14 days, only necessary data is kept",Personal data usage,none
+Some parts of their service are open-source,Change of service risk,none
+Refund is not allowed if the wrong item is purchased,Financial commitment risk,low
+Prohibits harming minors in any ways,Account responsibility,low
+Prohibits discussions which are against the government-advocated value,Account responsibility,high
+Users agree to comply with the French law,Jurisdiction risk,low
+You must create an account to use all of this service,Account responsibility,low
+The court of law governing the terms is in State of Western Australia,Jurisdiction risk,low
+2014/06/03 is a date of the last update of the agreements,Policy change risk,low
+Omegle is only available to users over a certain age,Access restriction,low
+"Omegle collects your IP address, which can be used to view your approximate location",Personal data usage,low
+Google Analytics cookies are used for statistics,Third party dependency risk,medium
+"Omegle employs third-party adversiting cookies, but with opt-out instructions",Third party dependency risk,medium
+Users can access most of the pages on the service's website without revealing any personal information,Personal data usage,none
+07.09.2023 is a date of the last update of the agreements,Policy change risk,low
+This service is a subsidiary of mail.de GmbH,Third party dependency risk,low
+A phone number is required for registration,Personal data usage,medium
+This service is a subsidiary of mail.de,Third party dependency risk,low
+This service provides archives of their Privacy policy so that changes can be viewed over time,Policy change risk,none
+Dark Reader does not track you,Personal data usage,none
+IP addresses are not tracked,Personal data usage,none
+Magic Earth can delete your account without prior notice and without a reason,Account termination risk,medium
+Magic Earth receives your precise location through GPS coordinates,Personal data usage,medium
+An onion site accessible over Tor is provided,Data security and Liability,none
+The service scans your uploaded files and images for advertising profiling,Personal data usage,high
+Your camera or microphone may be activated without visible indication,Personal data usage,high
+Your device contacts are uploaded to our servers upon installation,Personal data usage,high
+The service monitors your keystrokes and clipboard activity,Personal data usage,high
+Deleted messages are kept indefinitely in our systems,Personal data usage,high
+Your offline behavior is inferred from sensor data on your device,Personal data usage,high
+All files you share are permanently stored even after you remove them,User content rights risk,high
+The service can access your entire photo library without restriction,Personal data usage,high
+"This service logs every search query you enter, permanently",Personal data usage,high
+Your browsing data within the app is sold to data brokers,Personal data usage,high
+The service can impersonate you on third-party platforms,User content rights risk,high
+Your health data is used for purposes beyond the service's core function,Personal data usage,high
+You cannot appeal or dispute account termination decisions,Legal remedy limitation,high
+The service retains your data for up to 10 years after account deletion,Personal data usage,high
+Your private notes or drafts are readable by service staff,Personal data usage,high
+You grant the service rights to use your likeness in promotional materials,Irrevocable rights,high
+The service may share your financial transaction data with third parties,Third party dependency risk,high
+The service records all voice commands for training AI models permanently,Personal data usage,high
+You agree not to discuss the terms of this agreement publicly,Account responsibility,high
+This service collects your social security number or national ID,Personal data usage,high
+The service can share your data with law enforcement without a court order,Rule usage enforcement,high
+The service may modify your uploaded content without notice,User content rights risk,high
+Your purchase history is shared with your employer if using a corporate account,Third party dependency risk,high
+The service discloses your IP address and usage data to advertisers,Personal data usage,high
+You are automatically enrolled in beta programs that collect additional data,Personal data usage,high
+The service retains backups of your data in jurisdictions with no privacy laws,Jurisdiction risk,high
+The service can terminate your subscription mid-cycle without refund,Account termination risk,high
+User-generated reviews may be altered or deleted to protect the service's reputation,User content rights risk,high
+The service monitors your network traffic while the app runs in the background,Personal data usage,high
+Your data may be used to make automated decisions with legal consequences,Rule usage enforcement,high
+This service publishes a transparency report at least once a year,Data security and Liability,none
+You can download all your data in a machine-readable format at any time,Personal data usage,none
+Third-party auditors regularly verify this service's security practices,Data security and Liability,none
+This service does not profile you based on sensitive categories of data,Personal data usage,none
+Users are notified immediately if a data breach affects their account,Data security and Liability,none
+You can permanently delete your account and all associated data instantly,Account termination risk,none
+This service does not monetize user data in any form,Personal data usage,none
+The service stores your data only within the European Economic Area,Jurisdiction risk,none
+You retain full copyright over all content you post on this service,User content rights risk,none
+This service provides end-to-end encryption for all stored data,Data security and Liability,none
+The service does not share any user data with government authorities without a court order,Rule usage enforcement,none
+Account suspension decisions are always reviewed by a human before action is taken,Rule usage enforcement,none
+You will always have an opt-out option for any new data collection feature,Policy change risk,none
+This service does not use dark patterns to manipulate user consent,Policy change risk,none
+Your data is automatically deleted 30 days after account deletion,Personal data usage,none
+The service provides plain-English summaries of every clause in its terms,Policy change risk,none
+This service does not engage in cross-context behavioral advertising,Personal data usage,none
+A dedicated privacy officer handles all user data requests within 72 hours,Personal data usage,none
+You can opt out of all non-essential communications in a single step,Personal data usage,none
+This service is audited for accessibility and inclusivity annually,Data security and Liability,none
+Cookies are categorized and explained before being set on your device,Personal data usage,none
+This service allows anonymous usage without requiring account creation,Personal data usage,none
+The service does not retain logs of your activity after your session ends,Personal data usage,none
+User content is never used to train machine learning models without explicit opt-in,User content rights risk,none
+This service uses open-source encryption libraries that can be publicly audited,Data security and Liability,none
+The service provides a public changelog for all updates to its privacy policy,Policy change risk,none
+You can transfer your account data to a competing service at no cost,Change of service risk,none
+This service does not collect data from users under the age of 18,Access restriction,none
+Personal data is never used for purposes beyond those stated at time of collection,Personal data usage,none
+All employees with access to user data are subject to strict confidentiality agreements,Data security and Liability,none
+The service may share your data with its parent company and all subsidiaries,Third party dependency risk,medium
+Your account activity may be used to calculate a trust or risk score,Rule usage enforcement,medium
+Terms of service apply to family members who use your account,Account responsibility,medium
+You may be subject to promotional messages from partner companies,Third party dependency risk,medium
+The service may display your username publicly in activity feeds,Personal data usage,medium
+Unused credits or balances may expire after 12 months of inactivity,Financial commitment risk,medium
+The service may share your data with research institutions for academic purposes,Third party dependency risk,medium
+The service is not responsible for content accuracy provided by third parties,Data security and Liability,medium
+You may be required to update the app to continue using the service,Change of service risk,medium
+The service may limit your data export to once every 90 days,Access restriction,medium
+The service may use your email address to send administrative notices without opt-out,Personal data usage,medium
+Service availability is not guaranteed and outages may occur without prior notice,Data security and Liability,medium
+Your account may be restricted if you use a VPN or anonymization tool,Access restriction,medium
+The service may change its pricing model from free to paid without substantial notice,Financial commitment risk,medium
+The service may run A/B experiments on your experience without disclosing this,Change of service risk,medium
+Your data may be stored on servers in countries with lower privacy protections,Jurisdiction risk,medium
+The service may restrict your account if you consistently contact support,Account termination risk,medium
+The service may use your data to improve its automated decision systems,Personal data usage,medium
+Chargebacks or payment disputes may result in immediate account suspension,Account termination risk,medium
+The service may require re-verification of your identity periodically,Account responsibility,medium
+The service collects data on how long you spend on each part of the interface,Personal data usage,medium
+Third-party integrations may collect additional data outside this policy,Third party dependency risk,medium
+The service may retain a copy of your identity documents after verification,Personal data usage,medium
+Referral bonuses may be revoked if the referred user later violates terms,Financial commitment risk,medium
+The service may monitor usage patterns to enforce undisclosed fair use limits,Rule usage enforcement,medium
+You consent to receiving push notifications by default upon installing the app,Personal data usage,medium
+The service may use your data to create lookalike audiences for advertisers,Personal data usage,medium
+The service may automatically renew subscriptions unless cancelled 7 days in advance,Financial commitment risk,medium
+Your data may be used to benchmark the service's performance against competitors,Personal data usage,medium
+The service may place restrictions on how you export or use your own data,Access restriction,medium
+The service may charge a fee to process a data access or deletion request,Financial commitment risk,medium
+The service may limit the number of devices you can use simultaneously,Access restriction,medium
+The service may alter the features available in your subscription tier without notice,Change of service risk,medium
+This service collects your search history within the platform for profiling,Personal data usage,medium
+The service may suspend your account based on reports from other users without investigation,Account termination risk,medium
+Data collected from your use of free features may be used to fund paid services,Personal data usage,medium
+The service may share anonymized usage data with industry consortiums,Third party dependency risk,medium
+The service may use dark patterns in notification design to maximize engagement,Change of service risk,medium
+"Your login metadata, including time and location, is stored permanently",Personal data usage,medium
+You cannot use the service to discuss competitors' products,Account responsibility,medium
+The service may impose additional charges for premium support,Financial commitment risk,medium
+The service uses anonymized data to improve product recommendations,Personal data usage,low
+Users may be required to complete identity verification for certain features,Access restriction,low
+The service may include affiliate links in its content,Third party dependency risk,low
+Your content may be reviewed for compliance with community guidelines,Rule usage enforcement,low
+The service may discontinue features with 30 days notice,Change of service risk,low
+The service uses aggregated analytics to understand user behavior trends,Personal data usage,low
+Users must agree to receive occasional service-related announcements,Account responsibility,low
+The service may use industry-standard third-party payment processors,Third party dependency risk,low
+The service may limit free tier accounts to a specific storage quota,Access restriction,low
+You may not reverse-engineer or decompile the service's software,Account responsibility,low
+The service may suspend your account temporarily during a security investigation,Account termination risk,low
+The service may use first-party analytics to improve user experience,Personal data usage,low
+The service may adjust the order of content in your feed based on engagement data,Change of service risk,low
+Some features of the service may not be available in all geographic regions,Access restriction,low
+The service may require users to verify their email address before accessing all features,Access restriction,low
+This service uses session replay tools to troubleshoot user interface issues,Personal data usage,low
+The service may introduce account tiers with differentiated feature sets,Change of service risk,low
+The service may collect anonymous crash reports to improve stability,Personal data usage,low
+Content you submit may be reviewed if flagged by automated systems,Rule usage enforcement,low
+Users are responsible for maintaining the confidentiality of their login credentials,Account responsibility,low
+The service may use hashed identifiers to match your data across platforms,Personal data usage,low
+You consent to your content being indexed by the service's internal search engine,User content rights risk,low
+The service may send you notifications about relevant changes to applicable law,Policy change risk,low
+The service may outsource customer support to third-party contractors,Third party dependency risk,low
+The service may retain technical logs for up to 90 days for security purposes,Personal data usage,low
+Users agree not to create false identities or impersonate others on the service,Account responsibility,low
+The service may rate-limit requests from accounts showing unusual activity,Access restriction,low
+This service may use cookies to remember your language and display preferences,Personal data usage,low
+The service may send push notifications for activity related to your account,Personal data usage,low
+The service may use your content to generate previews or thumbnails,User content rights risk,low
+Users agree not to use the service to conduct unauthorized commercial activity,Account responsibility,low
+The service may use third-party cloud providers to host its infrastructure,Third party dependency risk,low
+You may not sublicense or resell access to the service to others,Account responsibility,low
+The service may apply geographic restrictions on certain premium content,Access restriction,low
+The service may use legitimate interest as a lawful basis for some data processing,Personal data usage,low
+Users who violate terms may be banned from re-registering under a new account,Account termination risk,low
+Content flagged by multiple users may be temporarily hidden pending review,Rule usage enforcement,low
+The service may use your publicly shared information for service improvement,Personal data usage,low
+The service is not liable for interruptions caused by third-party infrastructure failures,Data security and Liability,low
+The service may implement new security measures that require additional user actions,Change of service risk,low
+User data may be processed by subcontractors bound by data processing agreements,Third party dependency risk,low
+The service may charge different prices in different currencies due to regional factors,Financial commitment risk,low
+You must be a legal resident of a country where the service is available to register,Jurisdiction risk,low
+The service may add new features that are enabled by default for existing users,Change of service risk,low
+You waive your right to any legal remedy in case of data misuse,Legal remedy limitation,high
+The service can share your private communications with third-party advertisers,Personal data usage,high
+The service may sell your personal data to political campaigns or advocacy groups,Personal data usage,high
+You cannot request deletion of data the service deems necessary to retain,Personal data usage,high
+The service installs persistent tracking software on your device without disclosure,Personal data usage,high
+Your content is automatically licensed to all third-party partners without restriction,User content rights risk,high
+The service may disclose your real identity if you use the service anonymously,Personal data usage,high
+The service reserves the right to freeze your funds indefinitely without explanation,Account termination risk,high
+The service aggregates your health and financial data to sell risk profiles,Personal data usage,high
+"You grant the service a perpetual, irrevocable, royalty-free license to all your content",Irrevocable rights,high
+The service may lock you out of your account to pressure you into upgrading,Account termination risk,high
+The service can activate your device's location services without notification,Personal data usage,high
+This service tracks children's behavior to target advertising to their parents,Personal data usage,high
+The service may share your mental health disclosures with insurance companies,Personal data usage,high
+You give up your right to collective legal action against the service,Legal remedy limitation,high
+The service may permanently delete your content without warning for any reason,User content rights risk,high
+The service actively cross-references your data with public records and social networks,Personal data usage,high
+This service charges a fee to access your own stored data,Financial commitment risk,high
+The service may use your content to generate AI-created works and claim ownership,User content rights risk,high
+The service logs your precise GPS location every time you open the app,Personal data usage,high
+"This service never uses your data for advertising, regardless of your account type",Personal data usage,none
+You will always be given at least 60 days notice before any price increase,Policy change risk,none
+This service offers a free tier with no data-based limitations compared to paid tiers,Access restriction,none
+The service publishes all law enforcement requests it receives on a public registry,Data security and Liability,none
+You can dispute content moderation decisions through an independent review process,Rule usage enforcement,none
+This service only uses first-party cookies strictly necessary for functionality,Personal data usage,none
+Users can set a data expiry date after which all their data is automatically deleted,Personal data usage,none
+This service provides a real-time dashboard showing all data collected about you,Personal data usage,none
+The service never processes your data for automated profiling or scoring,Personal data usage,none
+This service uses zero-knowledge architecture so even staff cannot see your data,Data security and Liability,none
+The service actively notifies you when a third party requests your data,Rule usage enforcement,none
+This service operates without any external investors and has no profit motive on user data,Change of service risk,none
+All staff who access user data are publicly listed with their access levels,Data security and Liability,none
+You can request a human review of any automated decision affecting your account,Rule usage enforcement,none
+The service guarantees account recovery within 24 hours of a verified lock-out,Data security and Liability,none
+This service supports privacy-preserving login via passkeys and has no password requirement,Data security and Liability,none
+The service provides a detailed data flow map showing how your information moves,Personal data usage,none
+You have the right to object to any processing of your personal data for profiling,Personal data usage,none
+This service donates a portion of revenue to digital rights organizations,Change of service risk,none
+Account data is stored in encrypted form that only you can decrypt with your password,Data security and Liability,none
+The service may use your email for co-marketing with affiliate brands,Personal data usage,medium
+The service may require you to complete surveys as a condition of continued access,Access restriction,medium
+Users may have no recourse if the service miscalculates billing,Legal remedy limitation,medium
+The service may retain de-identified data derived from your account permanently,Personal data usage,medium
+The service may require photo ID to restore a locked account,Account responsibility,medium
+The service may combine your data with data purchased from data brokers,Personal data usage,medium
+The service's arbitration clause may be modified unilaterally in future updates,Policy change risk,medium
+You may be prevented from discussing service issues on external forums,Account responsibility,medium
+The service may share aggregated behavioral trends with government bodies,Rule usage enforcement,medium
+The service may offer reduced features to users who exercise privacy rights,Access restriction,medium
+The service may periodically re-verify that your account information is current,Account responsibility,low
+You are responsible for ensuring your content does not violate third-party rights,Account responsibility,low
+The service may offer users in regulated industries enhanced compliance tools,Change of service risk,low
+Content you delete may remain in caches or CDNs for a short technical period,User content rights risk,low
+The service may analyze support tickets to improve customer experience,Personal data usage,low
+The service may use your purchase history to recommend relevant features,Personal data usage,low
+Account inactivity for over two years may result in an archival notice before deletion,Account termination risk,low
+The service may introduce mandatory two-factor authentication for high-risk accounts,Account responsibility,low
+The service may process metadata about your files but not file contents,Personal data usage,low
+The service may use open banking APIs to facilitate payment with your consent,Financial commitment risk,low
+The service sells your biometric data including facial geometry to third parties,Personal data usage,high
+The service covertly activates audio recording during video sessions,Personal data usage,high
+Your behavioral data is used to manipulate the service interface to encourage spending,Personal data usage,high
+You cannot revoke consent once given for any data processing activity,Irrevocable rights,high
+The service shares your real-time location with all users in your contact list by default,Personal data usage,high
+The service accesses your device's stored passwords to verify identity,Personal data usage,high
+User data is shared with political intelligence firms to assess influence scores,Personal data usage,high
+The service may expose your personal data to undisclosed affiliated companies,Third party dependency risk,high
+You consent to the service overriding your device privacy settings,Personal data usage,high
+The service can read all notifications on your device including those from other apps,Personal data usage,high
+You agree to accept arbitration rulings even if they violate applicable law,Legal remedy limitation,high
+The service maintains a permanent behavioral profile that you cannot view or delete,Personal data usage,high
+The service uses your data to train AI models that are then licensed to competitors,User content rights risk,high
+Your payment card details are stored beyond the duration needed for a transaction,Data security and Liability,high
+The service can share your data without limitation following a corporate acquisition,Personal data usage,high
+Users waive their right to any form of compensation for data misuse,Legal remedy limitation,high
+The service may use your network connections to map social relationships for profiling,Personal data usage,high
+The service makes all your posted content irrevocably public by default,User content rights risk,high
+This service sells user data to foreign governments on request,Personal data usage,high
+You agree to allow the service to conduct psychological profiling for commercial purposes,Personal data usage,high
+The service may use your content to create deepfake or synthetic media without consent,User content rights risk,high
+Your activity data is continuously shared with law enforcement in real time,Rule usage enforcement,high
+The service can permanently ban you from using any future services from the company,Account termination risk,high
+All dispute resolution must occur exclusively in a jurisdiction far from where you live,Jurisdiction risk,high
+The service charges you for storage used by data it collected without your initiation,Financial commitment risk,high
+The service can place advertisements in your private communications interface,Personal data usage,high
+You agree that the service owns any intellectual property created using its tools,User content rights risk,high
+The service collects and stores voice recordings without disclosing their retention period,Personal data usage,high
+The service may disclose your personal data to media organizations,Personal data usage,high
+You grant the service the right to use your content in any future technology,Future scope expansion,high
+The service reserves the right to retroactively change its liability terms,Policy change risk,high
+The service collects your credit score or financial history without disclosure,Personal data usage,high
+Users agree that the service has no obligation to protect user data security,Data security and Liability,high
+The service logs your precise typing speed and rhythm for biometric identification,Personal data usage,high
+The service may access your linked bank accounts without initiating a transaction,Personal data usage,high
+The service can copy your account and data to a new entity after restructuring,Personal data usage,high
+You agree to be held liable for the actions of all other users on your device,Account responsibility,high
+The service may use your biometric data to unlock features for other users,Personal data usage,high
+The service can waive your privacy rights on your behalf in dealings with third parties,Legal remedy limitation,high
+You agree not to take legal action against the service in any form,Legal remedy limitation,high
+The service may record your usage patterns and sell them to your employer on request,Personal data usage,high
+The service may install software components that run after you uninstall the app,Personal data usage,high
+The service uses voice sentiment analysis to assess your emotional state,Personal data usage,high
+The service may involuntarily enroll you in data-sharing programs with government agencies,Rule usage enforcement,high
+The service may use your content to place paid advertisements on other platforms,User content rights risk,high
+Declining data-sharing requests disables core functionality of the service,Access restriction,high
+The service may share your children's data collected via family account features,Personal data usage,high
+You grant an irrevocable license to any improvements made to the service using your data,Irrevocable rights,high
+The service may collect data about your in-person interactions via nearby device detection,Personal data usage,high
+The service tracks your eye movements and attention through camera access,Personal data usage,high
+User data is retained indefinitely with no maximum retention period ever stated,Personal data usage,high
+The service can modify your past posts without retaining the original version,User content rights risk,high
+The service collects information about your household members through account usage data,Personal data usage,high
+This service provides a full audit log of every action taken on your account,Data security and Liability,none
+The service does not retain personal data of EU users outside the EEA,Jurisdiction risk,none
+This service's terms explicitly prohibit discriminatory profiling of any kind,Rule usage enforcement,none
+You have the right to receive a copy of all automated decisions made about you,Personal data usage,none
+The service offers lifetime data retention guarantees regardless of account status,Change of service risk,none
+This service allows you to view and cancel all active third-party integrations,Third party dependency risk,none
+The service offers a verifiable warrant canary updated weekly,Rule usage enforcement,none
+The service implements data minimization by collecting only what is strictly necessary,Personal data usage,none
+All advertising partners are named and publicly listed in the privacy policy,Third party dependency risk,none
+This service grants users the right to modify how their data is used at any time,Personal data usage,none
+The service has never received a binding order to disclose user data in bulk,Rule usage enforcement,none
+Cookies from this service expire within 24 hours by default,Personal data usage,none
+The service provides a dedicated email address for privacy rights requests,Change of service risk,none
+This service funds independent privacy research about its own practices,Data security and Liability,none
+Users can switch to a fully local data storage mode with no cloud synchronization,Personal data usage,none
+Content you delete is permanently purged within 72 hours from all servers,User content rights risk,none
+The service provides machine-readable privacy policies compliant with P3P standards,Policy change risk,none
+The service never shares data with social media platforms or tracking networks,Third party dependency risk,none
+This service provides a free legal summary of all its privacy commitments,Policy change risk,none
+The service does not use algorithmic filtering on your private communications,Personal data usage,none
+The service may adjust content visibility based on your engagement score,Change of service risk,medium
+Your device identifiers may be shared with analytics partners,Third party dependency risk,medium
+The service may charge different rates for the same service based on inferred wealth,Financial commitment risk,medium
+The service may restrict your account without stating which specific term you violated,Account termination risk,medium
+Users must accept updates to the terms within 30 days or lose access,Policy change risk,medium
+The service may use predictive analytics to pre-emptively limit your account,Account termination risk,medium
+The service may use your engagement data to train third-party recommendation algorithms,Personal data usage,medium
+Users may be shown different versions of the terms based on their region,Jurisdiction risk,medium
+The service may use your past activity to limit access to new features,Access restriction,medium
+The service may use data about your family members shared by mutual connections,Personal data usage,medium
+The service provides documentation on how to configure privacy settings optimally,Personal data usage,low
+The service may analyze content you upload to detect malicious software,Rule usage enforcement,low
+The service may record call durations but not call content for billing purposes,Personal data usage,low
+The service may ask you to complete a short survey before receiving a refund,Financial commitment risk,low
+The service uses standard TLS encryption for all data in transit,Data security and Liability,low
+The service may send security alerts if unusual login activity is detected,Data security and Liability,low
+You are informed if the service changes the third-party processors it works with,Third party dependency risk,low
+The service may make features unavailable during scheduled maintenance windows,Change of service risk,low
+The service provides an explanation when a refund request is rejected,Financial commitment risk,low
+The service may ask for your phone number to enable account recovery options,Personal data usage,low
+The service may sell your real-time location to any interested buyer,Personal data usage,high
+Your private photos are scanned to build an advertising profile about you,Personal data usage,high
+The service can listen to your microphone at any time without telling you,Personal data usage,high
+You cannot delete your data even if you close your account,Personal data usage,high
+The service sells your health information to insurance companies,Personal data usage,high
+The service records all your messages and stores them forever,Personal data usage,high
+Your face is scanned from uploaded photos and stored as a biometric identifier,Personal data usage,high
+The service can see all other apps installed on your device,Personal data usage,high
+You give up the right to sue the service even if they harm you,Legal remedy limitation,high
+The service shares your private messages with advertisers,Personal data usage,high
+Your children's data is collected and used for commercial purposes,Personal data usage,high
+"The service can change the terms without telling you, and your silence means agreement",Policy change risk,high
+Your voting behavior and political beliefs are inferred and shared with third parties,Personal data usage,high
+The service permanently bans you from all future products if you violate any rule once,Account termination risk,high
+You grant the service ownership of all ideas and inventions you create using their tools,Irrevocable rights,high
+"The service tracks every website you visit, even when you're not using it",Personal data usage,high
+The service may access your bank account history without asking each time,Personal data usage,high
+Your data is shared with foreign governments without a court order,Rule usage enforcement,high
+The service uses your content to train AI and claims ownership of the results,User content rights risk,high
+Your precise GPS location is recorded every time you open the app,Personal data usage,high
+The service can alter or delete your content without ever telling you,User content rights risk,high
+You must pay a fee to get a copy of your own personal data,Financial commitment risk,high
+The service installs software that keeps running even after you uninstall the app,Personal data usage,high
+The service can freeze your money in the account without explanation,Account termination risk,high
+Your emotional state is analyzed from your voice and stored in your profile,Personal data usage,high
+You agree not to tell anyone what the terms say,Account responsibility,high
+The service can use your identity to endorse products in ads shown to your friends,Personal data usage,high
+Your mental health data is shared with employers or insurers,Personal data usage,high
+The service can lock you out of your paid subscription mid-cycle with no refund,Account termination risk,high
+The service logs your typing patterns to uniquely identify you,Personal data usage,high
+You waive your right to compensation if the service leaks your data,Legal remedy limitation,high
+The service shares your location with every business you walk past,Personal data usage,high
+The service can read all other notifications on your phone,Personal data usage,high
+Your data is kept and sold even after you request deletion,Personal data usage,high
+The service infers your income and adjusts prices specifically for you,Financial commitment risk,high
+"The service can share your data with any company it is acquired by, under any terms",Third party dependency risk,high
+"All disputes must go through arbitration paid for by the service, which picks the arbitrator",Legal remedy limitation,high
+The service tracks which other users you interact with to build a map of your social life,Personal data usage,high
+The service records ambient audio when the app is running in the background,Personal data usage,high
+You agree to let the service place ads inside your private chat conversations,Personal data usage,high
+The service uses your data to generate profiles and sells those to data brokers,Personal data usage,high
+Your location history is available to any law enforcement agency that requests it,Rule usage enforcement,high
+The service can use your biometric data to authenticate other users,Personal data usage,high
+The service may expose personal details from your private profile in search results,Personal data usage,high
+"You cannot opt out of the service selling your data, even as a paid subscriber",Personal data usage,high
+The service can revoke your account and keep all your stored content,Account termination risk,high
+Your personal data is used to predict future behavior and shared with third parties,Personal data usage,high
+The service captures screenshots of your screen during app usage,Personal data usage,high
+You lose copyright over any creative work posted to this service,User content rights risk,high
+The service can sell your contact list to marketing companies,Personal data usage,high
+The service shares your personal data with political organizations,Personal data usage,high
+The service is not required to tell you if your data was part of a breach,Data security and Liability,high
+The service can prevent you from taking legal action by changing jurisdiction,Jurisdiction risk,high
+Your data continues to be used after you request account deletion for an undefined period,Personal data usage,high
+The service collects information about your offline purchases through partners,Personal data usage,high
+"The service can remove any earned rewards, credits, or discounts at any time",Financial commitment risk,high
+You agree to pay legal costs if you sue the service and lose,Financial commitment risk,high
+You can see a complete list of every third party your data is shared with,Third party dependency risk,none
+This service deletes all your data within 48 hours of account deletion,Personal data usage,none
+The service has never and will never sell your personal data,Personal data usage,none
+You can opt out of every non-essential data collection with one click,Personal data usage,none
+The service notifies you by email within 24 hours of any data breach,Data security and Liability,none
+All content you post is licensed only for use within this service,User content rights risk,none
+This service supports right-to-erasure requests under GDPR and processes them within 30 days,Jurisdiction risk,none
+This service does not share your data with any government unless legally compelled by a court,Rule usage enforcement,none
+You can turn off data collection entirely and still use the full service,Personal data usage,none
+The service stores all your data on servers located in your own country,Jurisdiction risk,none
+No automated system can ban your account without a human reviewing the decision first,Account termination risk,none
+This service allows you to use a pseudonym and never requires your real name,Account responsibility,none
+Your data is encrypted in a way that even the service's own staff cannot read it,Data security and Liability,none
+The service publishes its full source code so anyone can verify its privacy claims,Change of service risk,none
+All changes to the privacy policy require you to actively agree before they take effect,Policy change risk,none
+This service does not display any advertising of any kind,Change of service risk,none
+You receive a full refund if you cancel your subscription within the first 30 days,Financial commitment risk,none
+The service provides two-factor authentication free of charge to all users,Data security and Liability,none
+This service does not collect any data from users under the age of 16,Access restriction,none
+The service's data retention policy is capped at a maximum of 12 months,Personal data usage,none
+You can revoke any data consent at any time and the change takes effect immediately,Personal data usage,none
+This service's privacy practices are certified by an independent third-party auditor,Data security and Liability,none
+The service provides a dedicated privacy helpline available seven days a week,Change of service risk,none
+All cookies used by this service are optional except the one needed to keep you logged in,Personal data usage,none
+This service operates as a nonprofit and has no commercial interest in your data,Change of service risk,none
+You are given at least 90 days notice before any significant change to the terms,Policy change risk,none
+The service may make its premium features temporarily free to encourage you to upgrade,Change of service risk,medium
+Your data may be used to improve features you do not personally use,Personal data usage,medium
+The service may transfer your account to a regional partner without your approval,Third party dependency risk,medium
+The service may display sponsored content in your personal feed without labeling it clearly,Change of service risk,medium
+Your account may be flagged if you use privacy tools such as a VPN,Access restriction,medium
+The service may keep partial data after you delete your account for fraud prevention,Personal data usage,medium
+The service may share your data in aggregate with industry bodies,Third party dependency risk,medium
+The service may charge you if your usage significantly exceeds the average,Financial commitment risk,medium
+The service may adjust what content you see based on your account payment status,Change of service risk,medium
+The service may contact you by post if you provide a mailing address,Personal data usage,medium
+The service reserves the right to reject your username without giving a reason,Account responsibility,medium
+The service may limit the number of messages you can send per day,Access restriction,medium
+The service may use your interaction history to test new features on you without notice,Change of service risk,medium
+The service may restrict access to your data export if you submit requests too frequently,Access restriction,medium
+The service may keep your username reserved even after you delete your account,Account responsibility,medium
+The service may impose country-specific restrictions that reduce your rights,Jurisdiction risk,medium
+The service may use your stored payment method for automatic renewals without a reminder,Financial commitment risk,medium
+The service may limit your ability to share content externally from the platform,Access restriction,medium
+The service may require additional verification if you use the service from a new device,Account responsibility,medium
+The service may apply different community guidelines to users in different countries,Jurisdiction risk,medium
+The service may use your account for beta testing without giving you a choice to opt out,Change of service risk,medium
+The service may disable your account if it detects unusual login patterns,Account termination risk,medium
+Your content may be removed if it is reported by other users regardless of its accuracy,User content rights risk,medium
+The service may restrict your ability to delete old posts after a certain period,User content rights risk,medium
+The service may not honor refund requests made more than 14 days after purchase,Financial commitment risk,medium
+The service may change how your data is used when you move to a different country,Jurisdiction risk,medium
+The service may display your account name or activity in public leaderboards,Personal data usage,medium
+The service may use third-party tools to detect prohibited activity on your account,Rule usage enforcement,medium
+The service may limit features available during a free trial without clear disclosure,Change of service risk,medium
+The service may make it difficult to cancel a subscription by requiring a phone call,Account termination risk,medium
+The service may transfer your data to a third party following a financial restructuring,Third party dependency risk,medium
+The service may use your email for re-engagement campaigns after extended inactivity,Personal data usage,medium
+The service may assign you a permanent device fingerprint even in private browsing mode,Personal data usage,medium
+The service may make some features inaccessible in regions with strong privacy laws,Jurisdiction risk,medium
+The service may retain records of deleted messages for operational purposes,Personal data usage,medium
+The service may offer a lower-cost plan that involves more aggressive data collection,Financial commitment risk,medium
+The service may use data from your free account to subsidize its paid service,Personal data usage,medium
+The service may require acceptance of new terms before accessing previously created content,Policy change risk,medium
+The service may record the times and durations of all your sessions permanently,Personal data usage,medium
+The service may show you ads for services you searched for before using this platform,Personal data usage,medium
+The service may suspend access during disputes over billing without refunding the affected period,Account termination risk,medium
+Users may not use automated tools to interact with the service without permission,Account responsibility,low
+The service may send you a message when a new feature relevant to your account is added,Change of service risk,low
+The service may store encrypted backups of your data in multiple data centers,Data security and Liability,low
+You may be asked to confirm your email address again if you change it,Account responsibility,low
+The service may use your session data to auto-save your progress,Personal data usage,low
+The service may restrict posting frequency to prevent spam,Access restriction,low
+The service may ask for consent before enabling location features,Personal data usage,low
+The service may use a third-party payment provider governed by separate terms,Third party dependency risk,low
+Users under 13 must have a parent or guardian agree to the terms on their behalf,Access restriction,low
+The service may store your preferences to personalize your experience,Personal data usage,low
+The service may use hashed email addresses for fraud detection purposes,Personal data usage,low
+The service may apply rate limits to API access to ensure fair use,Access restriction,low
+The service may archive inactive accounts but does not delete them automatically,Account termination risk,low
+The service may use your feedback to improve its products,User content rights risk,low
+The service may check your account for compliance with export control regulations,Rule usage enforcement,low
+Content you report as inappropriate will be reviewed within 48 hours,Rule usage enforcement,low
+The service may use industry-standard encryption for all stored passwords,Data security and Liability,low
+The service may limit certain features for accounts with a history of policy violations,Access restriction,low
+The service may use trusted sub-processors to handle specific technical functions,Third party dependency risk,low
+The service may send you a warning before taking action on a suspected policy violation,Account termination risk,low
+The service can reassign your username to another user without your consent,Irrevocable rights,high
+The service logs every product you look at and sells that to retailers,Personal data usage,high
+Your private calendar events are read and analyzed by the service,Personal data usage,high
+The service can report your activity to your employer without your knowledge,Personal data usage,high
+You have no right to know which specific data the service holds about you,Personal data usage,high
+The service may collect your medical appointment history through calendar sync,Personal data usage,high
+The service charges you for data storage you did not knowingly create,Financial commitment risk,high
+Your activity on other websites is tracked through hidden code embedded in partner sites,Personal data usage,high
+The service can share your data with any company it chooses to enter a partnership with,Third party dependency risk,high
+You cannot dispute a charge without first agreeing to binding arbitration,Legal remedy limitation,high
+The service may transfer your genetic or biometric data to research companies,Personal data usage,high
+The service can intercept your emails if you use their email integration feature,Personal data usage,high
+Your account is subject to automated scoring that you cannot see or challenge,Rule usage enforcement,high
+The service keeps your data even if you were never a registered user,Personal data usage,high
+You agree that the service has no obligation to respond to your data requests,Data security and Liability,high
+The service sells your sleep or health data to pharmaceutical companies,Personal data usage,high
+Users have no rights over content once it is moderated or removed by the service,User content rights risk,high
+The service builds a financial risk profile on you and shares it with lenders,Personal data usage,high
+The service may share your real name with anyone who knows your username,Personal data usage,high
+The service may publish your submitted reviews even after you request their deletion,User content rights risk,high
+Your account data is used to create shadow profiles of people you contact,Personal data usage,high
+The service can override parental controls set by account administrators,Rule usage enforcement,high
+The service may use your credit card number to link your online and offline activity,Personal data usage,high
+You cannot pause your subscription — you must cancel and lose all your data,Account termination risk,high
+The service may permanently revoke your access for any reason deemed appropriate by it alone,Account termination risk,high
+Your typing is analyzed to detect emotional state and used in content recommendations,Personal data usage,high
+The service uses your data to generate synthetic users for product testing,Personal data usage,high
+The service may keep a permanent record of all usernames you have ever used,Personal data usage,high
+Your data may be retained by a defunct subsidiary even after the service is closed,Personal data usage,high
+The service may sell your behavioral profile when you close your account,Personal data usage,high
+The service may limit your download speeds if you use more than a set monthly quota,Access restriction,medium
+The service may resell your anonymized data to research organizations,Personal data usage,medium
+The service may issue service credits instead of cash refunds for outages,Financial commitment risk,medium
+The service may share your engagement data with content creators on the platform,Personal data usage,medium
+The service may require new consent before allowing access after a policy update,Policy change risk,medium
+The service may use your activity to generate automated recommendations for advertisers,Personal data usage,medium
+Users who downgrade plans may lose access to content created on premium tiers,User content rights risk,medium
+The service may share your support ticket contents with product teams,Personal data usage,medium
+The service may use your location to apply local tax rates without disclosure,Personal data usage,medium
+The service may use your search queries to improve its paid advertising products,Personal data usage,medium
+The service may assign your account to a different legal entity in your region,Jurisdiction risk,medium
+The service may prioritize paid users in customer support response times,Change of service risk,medium
+The service may use behavioral data to adjust the difficulty of the product for you,Personal data usage,medium
+The service may disable features that compete with its own paid offerings,Change of service risk,medium
+The service may require a 30-day notice period before you can cancel your subscription,Account termination risk,medium
+The service may share your sleep schedule data with third-party marketers,Personal data usage,high
+The service may send your usage data to your internet service provider,Third party dependency risk,medium
+The service may ask you to verify your identity when logging in from a shared network,Account responsibility,low
