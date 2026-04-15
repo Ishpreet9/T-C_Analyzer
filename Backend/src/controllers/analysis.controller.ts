@@ -4,7 +4,7 @@ import { AnalysisModel } from "../models/models.analysis.js";
 import * as Diff from 'diff';
 import crypto from 'node:crypto';
 import zlib from 'node:zlib';
-const CHAR_LIMIT = 15000;
+const CHAR_LIMIT = 12000;
 const SCAN_COUNT_LIMIT = 5;
 
 type messageType = {
@@ -61,7 +61,7 @@ const generateAnalysis = async (messages: messageType[]) => {
                 messages: messages,
                 temperature: 0.2,
                 // seed: 142,
-                max_tokens: 10000
+                max_tokens: 2500
             },
             {
                 headers: {

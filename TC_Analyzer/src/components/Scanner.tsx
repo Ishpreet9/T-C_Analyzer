@@ -72,9 +72,8 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
               return;
             }
 
-            // --- RULE F: THE "GUILT BY ASSOCIATION" CHECK (Fixes Discord) ---
+            // --- RULE F: THE "BY ASSOCIATION" CHECK (Fixes Discord) ---
             // If this element is INSIDE a link (e.g., a div inside an anchor),
-            // we treat it as a link.
             if (element.closest('a')) {
               element.remove();
               return;
@@ -86,7 +85,7 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
 
             const density = textLength > 0 ? (linkTextLength / textLength) : 0;
 
-            // Rule B: THE LINK DESTROYER (Aggressive)
+            // Rule B: LINK DESTROYER (Aggressive)
             // If > 45% of the text is links, DELETE IT.
             // WE DO NOT CHECK SIZE HERE. Even if it's huge (like the Language List), it dies.
             if (density > 0.45) {
@@ -94,13 +93,13 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
               return;
             }
 
-            // Rule C: The Boss Shield (For Content)
+            // Rule C: Shield (For Content)
             // Only IF it passed the density check (it's mostly text), AND it's big, we keep it.
             if (textLength > 1000) {
               return;
             }
 
-            // Rule D: The Sidebar Killer (Medium Density)
+            // Rule D: Sidebar Killer (Medium Density)
             // If it's smaller (< 1000 chars) and has moderate links (> 25%), kill it.
             if (density > 0.25) {
               element.remove();
