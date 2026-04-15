@@ -1,0 +1,89 @@
+index,clause_text,risk_type
+1,"The user represents, warrants and covenants that its use of Naukri.com shall not be done in a manner so as to Access the Platform for purposes of extracting content to be used for training a machine learning or AI model, without the express prior written permission.",Account responsibility
+2,"The user shall not Violate any applicable local, provincial, state, national or international law, statute, ordinance, rule or regulation;",Account responsibility
+3,"The user shall not Interfere with or disrupt computer networks connected to Naukri.com;",Account responsibility
+4,"The user shall not Impersonate any other person or entity, or make any misrepresentation as to your employment by or affiliation with any other person or entity;",Account responsibility
+5,"The user shall not Forge headers or in any manner manipulate identifiers in order to disguise the origin of any user information;",Account responsibility
+6,"The user shall not Interfere with or disrupt the use of Naukri.com by any other user, nor 'stalk', threaten, or in any manner harass another user;",Account responsibility
+7,"The user shall not Use Naukri.com in such a manner as to gain unauthorized entry or access to the computer systems of others;",Account responsibility
+8,"The user shall not Reproduce, copy, modify, sell, store, distribute or otherwise exploit for any commercial purposes Naukri.com, or any component thereof;",Account responsibility
+9,"The user shall not Use content from the Site for derivative works with a commercial motive without prior written consent of the IEIL.",User content rights risk
+10,"The user shall not Use any device, software or routine to interfere or attempt to interfere with the proper working of Naukri.com;",Account responsibility
+11,"The user shall not Impose an unreasonable or disproportionately large load on Naukri.com infrastructure.",Account responsibility
+12,"The user shall not Spam Naukri.com/IEIL by indiscriminately and repeatedly posting content or forwarding mail that may be considered spam etc.",Account responsibility
+13,"The user shall not Access data not intended for you or log into server or account that you are not authorized to access;",Account responsibility
+14,"The user shall not Constitute an act of reverse engineering, decompiling, disassembling, deciphering or otherwise attempting to derive the source code for the Site or any related technology or any part thereof",Account responsibility
+15,"The user shall not Engage in 'framing,' 'mirroring,' or otherwise simulating the appearance or function of the Site",Account responsibility
+16,"The user shall not Attempt to probe, scan or test the vulnerability of a system or network;",Account responsibility
+17,"The user shall not Use automated means to crawl and/or scrape content from Naukri.com and to manually scrape content from Naukri.com;",Account responsibility
+18,"The Site uses technological means to exclude Robots etc. from crawling it and scraping content.",Rule usage enforcement
+19,"You undertake not to circumvent these methods.",Account responsibility
+20,"The user shall not Access the Site except through the interfaces expressly provided by IEIL;",Account responsibility
+21,"Providing deeplinks into Naukri.com without prior permission of IEIL is prohibited.",Account responsibility
+22,"Extracting data from Naukri.com using any automated process such as spiders, crawlers etc. or through any manual process for a purpose which has not been authorised in writing is prohibited.",Account responsibility
+23,"The user shall not Upload, post, email, transmit or otherwise make available either directly or indirectly, any unsolicited bulk e-mail or unsolicited commercial e-mail.",Account responsibility
+24,"Subscribers shall under no circumstance sublicense, assign, or transfer the License, and any attempt at such sublicense, assignment or transfer is void.",Irrevocable rights
+25,"The user shall not Constitute hosting, modifying, uploading, posting, transmitting, publishing, or distributing any material or information For which you do not have all necessary rights and licenses;",Account responsibility
+26,"The user shall not Constitute hosting, modifying, uploading, posting, transmitting, publishing, or distributing any material or information Which infringes, violates, breaches or otherwise contravenes the rights of any third party;",Account responsibility
+27,"The user shall not Constitute hosting, modifying, uploading, posting, transmitting, publishing, or distributing any material or information Which contains a computer virus, or other code, files or programs intending in any manner to disrupt or interfere with the functioning of Naukri.com, or that of other computer systems;",Account responsibility
+28,"The user shall not Constitute hosting, modifying, uploading, posting, transmitting, publishing, or distributing any material or information That is grossly harmful, harassing, invasive of another's privacy, hateful, disparaging, relating to money laundering or unlawful;",Account responsibility
+29,"The user shall not infringe on any intellectual property rights of any person / entity or retain information / download any information from any computer system or otherwise with an intention to do so.",Account responsibility
+30,"Info Edge (India) Ltd. will make best efforts to do so but does not warrant that any of the web sites or any affiliate site(s) or network system linked to it is free of any operational errors",Data security and Liability
+31,"Info Edge (India) Ltd. does not warrant that it will be free of any virus, computer contaminant, worm, or other harmful components.",Data security and Liability
+32,"The subscription of a user shall be subject to Quotas as applicable and as advised.",Access restriction
+33,"The CLIENT agrees to use only email addresses associated with a domain name officially owned by the CLIENT or BENEFICIARY EMPLOYER for its authorized user(s) when registering sub-users or conducting activities on their Naukri account.",Account responsibility
+34,"Naukri reserves the right to suspend or terminate services if this condition is violated.",Account termination risk
+35,"To protect your account and our services, we use automated systems and manual checks to detect unusual activity or outlier behavior.",Rule usage enforcement
+36,"If we identify elevated risk, we may require additional verification.",Access restriction
+37,"In some cases, you will be asked to install our application on your device to complete verification and regain access.",Access restriction
+38,"If you decline, your access to some or all features may be limited until an alternative verification is completed.",Access restriction
+39,"We may share limited data with service providers that help deliver the fraud prevention and security checks.",Third party dependency risk
+40,"If you feel access to your account is limited or denied based on automated processing, you may request human review and contest the decision by contacting our support team",Legal remedy limitation
+41,"The decision of Info Edge post a human review will be final and binding.",Legal remedy limitation
+42,"You agree to install updates to the application when prompted, keep your device OS up to date, and not interfere with the Platforms security features.",Account responsibility
+43,"By registering or logging in, you authorize Naukri.com to send you one-time verification codes and other security-related transactional messages by SMS to the mobile number linked to your log in/account.",Personal data usage
+44,"We process your phone number, OTP verification data, and related technical logs to authenticate you, prevent fraud, and secure your account.",Personal data usage
+45,"We may suspend or restrict access, or require additional verification, if we detect or suspect fraud, SIM swap, or unauthorized use.",Access restriction
+46,"Info Edge (India) Ltd. shall not be liable for any loss or damage sustained by reason of any disclosure (inadvertent or otherwise) of any information concerning the user's account and / or information relating to or regarding online transactions.",Data security and Liability
+47,"Payments for the services offered by Naukri.com shall be on a 100% advance basis.",Financial commitment risk
+48,"Refund if any will be at the sole discretion of Info Edge.",Financial commitment risk
+49,"IEIL offers no guarantees whatsoever for the accuracy or timeliness of the refunds reaching the Customers card/bank accounts.",Financial commitment risk
+50,"IEIL gives no guarantees of server uptime or applications working properly.",Data security and Liability
+51,"All is on a best effort basis and liability is limited to refund of amount only.",Legal remedy limitation
+52,"IEIL reserves its right to amend / alter or change all or any disclaimers or terms of agreements at any time without any prior notice.",Policy change risk
+53,"Online courses are provided by Sunrise Mentors Private Limited",Third party dependency risk
+54,"Subscriber/user acknowledges and agrees that IEIL/Naukri.com, at its sole discretion and without prejudice to other rights and remedies that it may have under the applicable laws, shall be entitled to set off the amount paid or payable by a subscriber/user against any amount(s) payable by Subscriber/user to IEIL under any other agreement or commercial relationship.",Financial commitment risk
+55,"Info Edge (India) Ltd. further reserves its right to post the data on the website naukri.com or on such other affiliated sites and publications as Info Edge (India) Ltd. may deem fit and proper at no extra cost to the subscriber / user.",User content rights risk
+56,"Info Edge (India) Ltd will not be party to any legal proceedings between a user (e.g. a subscriber) and a party contracted through the site.",Data security and Liability
+57,"In case Info Edge (India) Ltd. is implicated in any legal proceedings, costs will be recovered from the party that names Info Edge (India) Ltd.",Financial commitment risk
+58,"Any person using naukri.com in violation of the stipulations contained in the Terms and Conditions of naukri.com shall render himself/herself liable to appropriate action in a court of law both civil and criminal.",Rule usage enforcement
+59,"BY ACCEPTING THESE TERMS AND CONDITIONS, YOU AGREE TO INDEMNIFY AND OTHERWISE HOLD HARMLESS IEIL, ITS DIRECTORS, OFFICERS, EMPLOYERS, AGENTS, SUBSIDIARIES, AFFILIATES AND OTHER PARTNERS FROM ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES ARISING OUT OF, RELATING TO, OR RESULTING FROM YOUR USE OF THE SERVICES OBTAINED THROUGH NAUKRI.COM.",Data security and Liability
+60,"If any dispute arises between a user/users and IEIL... the dispute shall be referred to a sole arbitrator who shall be an independent and neutral third party identified by the Company.",Jurisdiction risk
+61,"Decision of the arbitrator shall be final and binding on both the parties to the dispute.",Legal remedy limitation
+62,"The place of arbitration shall be New Delhi, India.",Jurisdiction risk
+63,"These Terms and Conditions shall be governed by the laws of Republic of India.",Jurisdiction risk
+64,"The exclusive forum for any disputes arising out of or relating to these Terms of Use shall be a court of law located in New Delhi, India.",Jurisdiction risk
+65,"In case of non compliance of these Terms and Conditions or Privacy Policy IEIL may terminate usage rights and take down any offending information that might might have been upoloaded by such subscriber/user",Account termination risk
+66,"Uploading of multiple resumes beyond a reasonable limit by the same individual, using the same or different accounts shall entitle Info Edge to remove the Resumes without notice to the subscriber.",Account termination risk
+67,"Info Edge reserves its right to reject and delete any resume/ insertion or information/data fed in by the user without assigning any reason.",User content rights risk
+68,"Info Edge has the right to make all such modifications/editing of resume in order to fit resume in its database.",User content rights risk
+69,"The subscriber shall be assigned a password (s) by Info Edge... but the sole responsibility of the safe custody of the password shall be that of the subscriber and Info Edge shall not be responsible for data loss/theft of data/corruption of data or the wrong usage/misuse of the password.",Data security and Liability
+70,"You consent to your application, documents and any responses sent to you by the Employer or vice versa through naukri.com being processed and analysed by naukri.com according to these terms of use and naukri.com's Privacy Policy.",Personal data usage
+71,"Naukri.com may use your application materials (including public CVs and responses to employer's questions) to determine whether you may be interested in a Job Listing, and naukri.com may reach out to you about such Job Listing.",Personal data usage
+72,"In order to use Naukri.com, you may sign in using your Facebook/Google login. If you do so, you authorize us to access and use certain Facebook/Google account information, including but not limited to your public Facebook profile and posts.",Personal data usage
+73,"The User of these services does not claim any copyright or other Intellectual Property Right over the data uploaded by him/her on the website.",User content rights risk
+74,"Info Edge reserves the right to extend, cancel, discontinue, prematurely withdraw, change, alter or modify this service or any part thereof including charges, at its sole discretion at anytime as may be required in view of business exigencies and/or regulatory or statutory changes.",Change of service risk
+75,"From time to time, Info Edge may include additional features and services.",Future scope expansion
+76,"The insertion so displayed in the classified section of naukri.com shall be for a fixed period (currently 30 days), which period is subject to change without notice.",Change of service risk
+77,"Info Edge shall in no way be held liable for any information received by the subscriber and it shall be the sole responsibility of the subscriber to check, authenticate and verify the information/response received at its own cost and expense.",Data security and Liability
+78,"The use and access to RESDEX database is subject to this policy. The services provided to you are aimed at providing recruitment solutions and should be restricted to contacting suitable candidates for genuine jobs in existence.",Account responsibility
+79,"We reserve the right to terminate services, without prior notice, to the originator of Spam. No refund shall be admissible under such circumstances.",Account termination risk
+80,"Info Edge reserves the right to scan all content being sent out on sms and block smses if necessary if content of the SMS is deemed as spam or any non-recruitment content whatsoever.",Rule usage enforcement
+81,"Students expressly consent to the collection, processing, and storage of their personal and academic information for the purposes of availing Naukri Campus services.",Personal data usage
+82,"Student data may be shared with third parties for specific and limited purposes aligned with career development, placement coordination, and training.",Third party dependency risk
+83,"By uploading your Content, you grant the Company a limited, non-exclusive, royalty-free, worldwide license to host, display, and share your Content on the Platform for viewing and promotional purposes.",User content rights risk
+84,"The Company may review or remove any Content at its discretion if it believes the Content violates these Terms, infringes intellectual property rights, copyright or breaches any applicable law.",Rule usage enforcement
+85,"The Company reserves the absolute right, at its sole discretion, to modify, revise, suspend, or discontinue the Creator Program, including any reward structures, milestones, eligibility criteria, or benefits, at any time without prior notice.",Change of service risk
+86,"All intellectual property rights in the CreatorHub Platform, including its software, design, and trademarks, belong exclusively to the Company or its licensors.",User content rights risk
+87,"To the fullest extent permitted by law, the Company shall not be liable for any indirect, incidental, or consequential damages arising out of your use of the Platform.",Data security and Liability
+88,"The Company's total liability shall in no event exceed the amount of fees paid by you, if any, for the use of the Platform.",Legal remedy limitation
