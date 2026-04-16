@@ -170,8 +170,33 @@ const Scanner = ({ setState, setAnalysisData }: childProps) => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center text-2xl w-full h-full bg-neutral-600 text-white">
-      Scanning...
+<div className="flex flex-col w-full h-screen min-h-[400px] bg-[#222222] text-white font-sans">
+      {/* Header Bar - Remove this block if your header is handled in a parent layout component */}
+      <div className="flex justify-between items-center px-4 py-3 border-b border-[#333333]">
+        <div className="flex items-center gap-2">
+          {/* Shield Icon */}
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>
+          </svg>
+          <span className="font-semibold text-gray-300 text-sm tracking-wide">T&C ANALYZER</span>
+        </div>
+        {/* Settings Icon */}
+        <button className="text-gray-400 hover:text-white transition-colors cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+          </svg>
+        </button>
+      </div>
+
+      {/* Main Scanning Content */}
+      <div className="flex flex-col flex-1 justify-center items-center p-6">
+        {/* Loading Spinner */}
+        <div className="w-[88px] h-[88px] rounded-full border-[6px] border-[#3a3a3a] border-t-[#fcc201] animate-spin mb-8"></div>
+        
+        {/* Text */}
+        <h2 className="text-[26px] font-bold text-white mb-2 tracking-tight">Analyzing Page</h2>
+        <p className="text-[15px] text-gray-400">Please wait while we check the terms...</p>
+      </div>
     </div>
   );
 };

@@ -22,13 +22,6 @@ const ResultView = ({ analysisData, setAnalysisData, setState }: ChildProps) => 
     );
   }
 
-  // 2. Determine Score Color
-  const getScoreColor = (score: number) => {
-    if (score >= 80) return "text-emerald-400 border-emerald-500/50";
-    if (score >= 50) return "text-yellow-400 border-yellow-500/50";
-    return "text-red-400 border-red-500/50";
-  };
-
   // rescan handling
   const handleRescan = async () => {
 
@@ -53,12 +46,6 @@ const ResultView = ({ analysisData, setAnalysisData, setState }: ChildProps) => 
           <div className="flex items-center gap-3">
           <span className="text-neutral-300">Results from local storage.</span>
           <button className="underline hover:text-neutral-200 text-neutral-400" onClick={()=>handleRescan()}>Rescan ?</button>
-          </div>
-          <h2 className="text-xl font-semibold text-neutral-300 uppercase tracking-wide text-center sm:text-left">
-            Safety Score
-          </h2>
-          <div className={`text-5xl font-bold mt-2 ${getScoreColor(analysisData.score)} drop-shadow-md text-center sm:text-left`}>
-            {analysisData.score}<span className="text-2xl text-neutral-500">/100</span>
           </div>
         </div>
 
