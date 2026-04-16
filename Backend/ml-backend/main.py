@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List
 from input_cleaning import clean_text
 from clause_classifier import ClauseClassifier
-from final_input import final
+from final_input import final,json_format
 from huggingface_hub import snapshot_download
 
 
@@ -31,8 +31,6 @@ def analyze(request: AnalyzeRequest):
     cleaned_clauses = clean_text(request.text)
     clauses= final(cleaned_clauses)
     predictions = clf.predict_batch(clauses)
-    return {
-        "results":predictions
-    }
-
+    
+    return json_format(predictions)
 
