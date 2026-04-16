@@ -21,7 +21,7 @@ def final(ai_output_text):
 
 
 from openai import OpenAI
-def generate_summary(data,fairness,redFlags,yellowFlags,greenFlags):
+def generate_summary(fairness,redFlags,yellowFlags,greenFlags):
     prompt = f"""
 You are a consumer protection assistant.
 
@@ -55,15 +55,15 @@ Return only the summary text.
 
     response = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": my_prompt}]
+    messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content
 
 
 def json_format(predictions):
-    red_flags = []
-    yellow_flags = []
-    green_flags = []
+    redFlags = []
+    yellowFlags = []
+    greenFlags = []
 
     n_high, n_medium, n_low = 0, 0, 0
 
@@ -76,18 +76,18 @@ def json_format(predictions):
 
         if severity == "high":
             n_high += 1
-            if len(red_flags) < 5:
-                red_flags.append(formatted)
+            if len(redFlags) < 5:
+                redFlags.append(formatted)
 
         elif severity == "medium":
             n_medium += 1
-            if len(yellow_flags) < 5:
-                yellow_flags.append(formatted)
+            if len(yellowFlags) < 5:
+                yellowFlags.append(formatted)
 
         elif severity == "low":
             n_low += 1
-            if len(green_flags) < 5:
-                green_flags.append(formatted)
+            if len(greenFlags) < 5:
+                greenFlags.append(formatted)
 
     score = (n_high * 3) + (n_medium * 2) + (n_low * 1)
 
@@ -102,8 +102,8 @@ def json_format(predictions):
 
     return {
         "fairness": fairness,
-        "redFlags": red_flags,
-        "yellowFlags": yellow_flags,
-        "greenFlags": green_flags,
+        "redFlags": redFlags,
+        "yellowFlags": yellowFlags,
+        "greenFlags": greenFlags,
         "summary":generate_summary(fairness,redFlags,yellowFlags,greenFlags)    
         }

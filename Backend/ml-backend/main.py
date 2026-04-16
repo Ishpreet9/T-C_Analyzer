@@ -10,11 +10,12 @@ from huggingface_hub import snapshot_download
 app = FastAPI(title="T&C Risk Classifier")
 
 
-global clf
-snapshot_download(
-    repo_id="Doctor-psy/TOS",
-    local_dir="./student_model"
-    )
+# global clf
+# snapshot_download(
+#     repo_id="Doctor-psy/TOS",
+#     local_dir="./student_model"
+#     )
+
 clf = ClauseClassifier(model_dir="./student_model")
 
 _ = clf.predict("We respect your privacy")
